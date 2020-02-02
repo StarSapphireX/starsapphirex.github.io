@@ -1,0 +1,650 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    line-height: 1.4;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   ToME Tips styles - main/top-level
+   ========================================================================== */
+
+/* See http://stackoverflow.com/a/22428493/25507 */
+.disable-transition {
+    transition: none !important;
+    -webkit-transition: none !important;
+}
+
+html.wait, html.wait *
+{
+    cursor: wait !important;
+}
+
+html, body, #side-nav-container, #content-container
+{
+    height: 100%;
+}
+
+#content-container
+{
+    position: relative;
+}
+
+#content
+{
+    padding-right: 160px;
+}
+
+#sidebar-ad
+{
+    position: absolute;
+    right: 0;
+    top: 120px;
+}
+
+.page-header
+{
+    position: relative;
+}
+
+.page-header h1
+{
+    /* Left-float the header, and remove the margins that won't collapse
+     * because we're left-floating, so that it sits to the left of our navbar.
+     */
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.header-tools
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+
+/* Give header fields the same size.
+ * Not sure if there's a cleaner way of doing this.
+ */
+.header-tools input[type='text'], .header-tools select
+{
+    border: 1px;
+    padding: 1px;
+}
+
+.sticky
+{
+    position: absolute;
+    z-index: 9999;
+    /* left and right are duplicated from Bootstrap's columns' padding */
+    left: 15px;
+    right: 15px;
+}
+
+.sticky, .sticky h1
+{
+    margin-top: 0;
+    margin-bottom: 0;
+
+    /* Copied from page theme.  TODO: Cleaner solution available? */
+    background: #272b30;
+}
+
+/* Make anchors show below the sticky header.  See http://stackoverflow.com/a/13184714/25507 */
+a.anchor
+{
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+
+#side-nav-container, #content-container
+{
+    overflow: scroll;
+}
+
+#side-nav a {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#side-nav > ul > li > ul > li > a {
+    padding: 0 0 0 30px;
+}
+
+#side-nav .dropdown:before {
+    font-family: "FontAwesome";
+    font-size: 10px;
+    content: "\f078";
+    padding-right: 5px;
+    width: 1.28571429em;    /* copied from fa-fw class */
+    display: inline-block;
+}
+
+#side-nav .dropdown.collapsed:before {
+    content: "\f054";
+}
+
+#side-nav .no-dropdown:before {
+    font-family: "FontAwesome";
+    font-size: 10px;
+    content: "\00a0";       /* Unicode non-breaking space - http://stackoverflow.com/a/16552398/25507 */
+    padding-right: 5px;
+    width: 1.28571429em;    /* copied from fa-fw class */
+    display: inline-block;
+}
+
+.mastery-dropdown-container {
+    padding-right: 1em;
+}
+
+.dropdown-option:before {
+    font-family: "FontAwesome";
+    content: "\00a0";       /* Unicode non-breaking space - http://stackoverflow.com/a/16552398/25507 */
+    padding-right: 5px;
+    width: 1.28571429em;    /* copied from fa-fw class */
+    display: inline-block;
+}
+
+.dropdown-option.selected:before {
+    content: "\f00c";  /* FontAwesome check mark ("ok") */
+}
+
+.dl-table dt {
+    float: left;
+    width: 120px;
+}
+
+.dl-table dt.multiline-dd {
+    float: none;
+}
+
+.news dd {
+    margin-top: 0.25em;
+    margin-bottom: 1.5em;
+}
+
+h3 img {
+    margin-right: 8px;
+}
+
+.panel-title a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.tooltip-inner {
+    text-align: left;
+}
+
+/* Manually copied from abbr[title]'s style */
+.html-tooltip {
+    border-bottom: dotted 1px #7a8288;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+#footer {
+    color: #999;
+    float: right;
+    font-style: italic;
+    font-size: 13px;
+}
+
+#footer a {
+    color: #999;
+}
+
+/* ==========================================================================
+   Search dropdown (Twitter typeahead.js) styles.  Some of these are manually
+   copied from dropdown-menu.  TODO: Use LESS or Sass to remove duplication.
+   ========================================================================== */
+
+.tt-dropdown-menu {
+    background-clip: padding-box;
+    background-color: #3a3f44;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+}
+
+.tt-dropdown-menu h4, .tt-dropdown-menu a {
+    padding: 0 5px;
+}
+
+/* Based on .dropdown-header */
+.tt-dropdown-menu h4
+{
+    color: #7a8288;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.tt-suggestion .description {
+    font-style: italic;
+    color: #c8c8c8;
+}
+
+.tt-suggestion .description strong.tt-highlight {
+    font-weight: normal;
+}
+
+.tt-suggestion a {
+    display: block;
+    padding: 0 5px;
+}
+
+.tt-suggestion a:hover {
+    background: #272b30;
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   ToME Tips styles - individual pages
+   ========================================================================== */
+
+.variable, .stat-variable, .talent-variable {
+    border-bottom: dotted 1px;
+    font-weight: bold;
+}
+
+.variable {
+    color: #009e96;
+}
+
+.stat-variable {
+    color: #006dd3;
+}
+
+.talent-variable {
+    color: #00a000;
+}
+
+.panel-body {
+    /* This is so .source-link's position:absolute will work. */
+    position: relative;
+}
+
+/* A link that's merely a hint, so we want to de-emphasize a bit. */
+a.hint-link, a.hint-link:hover {
+    color: #c8c8c8;
+}
+
+a.hint-link .fa {
+    font-size: 75%;
+}
+
+.source-link, .wiki-link {
+    text-transform: lowercase;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.source-link, .source-link a, .wiki-link, .wiki-link a {
+    color: #999;
+}
+
+.source-link:before, .wiki-link:before {
+    content: '[ ';
+}
+.source-link:after, .wiki-link:after {
+    content: ' ]';
+}
+
+table.old-new {
+    margin-bottom: 0;
+}
+
+table.old-new td {
+    vertical-align: top;
+}
+
+.class-desc, .race-desc {
+    position: relative;
+}
+
+.flavor {
+    font-style: italic;
+    padding-bottom: 1em;
+}
+
+.stock-text, .dlc-notice {
+    font-style: italic;
+}
+
+.class-images, .race-images {
+    float: left;
+    padding-right: 10px;
+}
+
+.class-detail-container {
+    padding: 0;
+}
+
+.class-talents-detail {
+    height: 37px;
+    padding-bottom: 5px;
+}
+
+.talent-mastery {
+    font-weight: bold;
+}
+
+.class-talents-detail ul {
+    padding: 0;
+}
+
+.class-talents-detail li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 5px;
+}
+
+.class-talents-detail.locked img {
+    opacity: 0.8;
+
+    /* filter:url syntax is the only variant supported by Firefox pre 34 */
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'saturate\' values=\'0\'/></filter></svg>#grayscale");
+
+    /* Newer, simpler syntax */
+    filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.class-talents-detail.locked img:hover {
+    opacity: 1.0;
+
+    /* filter:url syntax is the only variant supported by Firefox pre 34 */
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'saturate\' values=\'1\'/></filter></svg>#grayscale");
+
+    /* Newer, simpler syntax */
+    filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+
+.extra-stats h4 {
+    visibility: hidden;
+}
+
+.stats dl {
+    margin-left: -40px;
+}
+
+.stats dt {
+    font-weight: normal;
+}
+
+.stat-bonus, .stat-penalty {
+    font-weight: bold;
+}
+
+.stat-bonus {
+    color: #00a000;
+}
+
+.stat-penalty {
+    color: #a00000;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
