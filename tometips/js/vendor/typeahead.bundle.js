@@ -132,9 +132,11 @@
         return {
             nonword: nonword,
             whitespace: whitespace,
+            n2gram: n2gram,
             obj: {
                 nonword: getObjTokenizer(nonword),
-                whitespace: getObjTokenizer(whitespace)
+                whitespace: getObjTokenizer(whitespace),
+                n2gram: getObjTokenizer(n2gram)
             }
         };
         function whitespace(str) {
@@ -144,6 +146,20 @@
         function nonword(str) {
             str = _.toStr(str);
             return str ? str.split(/\W+/) : [];
+        }
+        function n2gram(str) {
+            str = _.toStr(str);
+            var tokens = [], word = "";
+            _.each(str.split(""), function(char) {
+                if (char.match(/\s+/)) {
+                    word = "";
+                } else {
+                    tokens.push(word + char);
+                    word = char;
+                }
+            });
+            tokens.push(word);
+            return tokens;
         }
         function getObjTokenizer(tokenizer) {
             return function setKey() {

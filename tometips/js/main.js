@@ -1,4 +1,4 @@
-var VERSION = '2017-03-11';
+var VERSION = '2020-11-06';
 
 // http://stackoverflow.com/a/2548133/25507
 if (typeof String.prototype.endsWith !== 'function') {
@@ -412,7 +412,6 @@ var typeahead = (function() {
     // Bloodhound search objects.  These are indexed by version number and have
     // subkeys for each data source.
     var search = {};
-
     function updateSearch(version) {
         if (search[version]) {
             return;
@@ -421,8 +420,8 @@ var typeahead = (function() {
         search[version] = {};
         for (var i = 0; i < categories.length; i++) {
             search[version][categories[i]] = new Bloodhound({
-                datumTokenizer: Bloodhound.tokenizers.obj.nonword('name'),
-                queryTokenizer: Bloodhound.tokenizers.nonword,
+                datumTokenizer: Bloodhound.tokenizers.obj.n2gram('name'),
+                queryTokenizer: Bloodhound.tokenizers.n2gram,
                 limit: 10,
                 prefetch: {
                     url: 'data/' + version + '/search.' + categories[i] + '.json',
