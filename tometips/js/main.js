@@ -1,4 +1,4 @@
-var VERSION = '2020-11-06';
+var VERSION = '2020-11-23';
 
 // http://stackoverflow.com/a/2548133/25507
 if (typeof String.prototype.endsWith !== 'function') {
@@ -589,7 +589,7 @@ var masteries = (function() {
 
     var masteries = {
         DEFAULT: '1.3',
-        ALL: [ '0.8', '1.0', '1.1', '1.2', '1.3', '1.5' ],
+        ALL: ['1.0', '1.3', '1.5'],
 
         name: function(ver) {
             return ver;
