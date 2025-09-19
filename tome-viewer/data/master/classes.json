@@ -1,0 +1,3608 @@
+{
+  "class_list": [
+    "WARRIOR",
+    "ROGUE",
+    "MAGE",
+    "WILDER",
+    "CELESTIAL",
+    "DEFILER",
+    "AFFLICTED",
+    "CHRONOMANCER",
+    "PSIONIC",
+    "ADVENTURER",
+    "TINKER",
+    "DEMENTED"
+  ],
+  "classes": {
+    "ADVENTURER": {
+      "desc": "<p>冒险家可以学习很多技能，他们可以学习任何碰巧发现的技能。<\/p><p><span style=\"font-weight: bold\"><span class=\"tstr-font-bold\"><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\">这是通关后获得的奖励职业，显然它绝对是不平衡的。<\/span><\/span><span style=\"color: #ffffff\"><span class=\"tstr-color-WHITE\"><\/span><\/span><\/span><\/span><\/p>",
+      "display_name": "冒险家",
+      "name": "Adventurer",
+      "short_name": "ADVENTURER",
+      "subclass_list": [
+        "ADVENTURER"
+      ]
+    },
+    "AFFLICTED": {
+      "desc": "<p>痛苦系因为他们使用了邪恶的力量而变得扭曲。<\/p><p>他们能将这股力量转化为优势，但会为此付出一定的代价……<\/p>",
+      "display_name": "痛苦系",
+      "name": "Afflicted",
+      "short_name": "AFFLICTED",
+      "subclass_list": [
+        "CURSED",
+        "DOOMED"
+      ]
+    },
+    "CELESTIAL": {
+      "desc": "<p>天空系职业是使用天体能量的奥术使用者。<\/p><p>大部分都是从太阳和月亮汲取能量。<\/p>",
+      "display_name": "天空系",
+      "name": "Celestial",
+      "short_name": "CELESTIAL",
+      "subclass_list": [
+        "SUN_PALADIN",
+        "ANORITHIL"
+      ]
+    },
+    "CHRONOMANCER": {
+      "desc": "<p>通过在时空的连续性上打开孔洞，时空法师可以在时间线中来回穿梭。<\/p><p>这些穿梭时空的行为会在时空中留下张力，他们改变现实的程度越大，造成的张力就越大。<\/p><p>他们需要小心控制这些被他们成为紊乱值的时空张力。否则，这样的张力会不可避免在他们周围的世界产生各种异常现象。<\/p>",
+      "display_name": "时空系",
+      "name": "Chronomancer",
+      "short_name": "CHRONOMANCER",
+      "subclass_list": [
+        "PARADOX_MAGE",
+        "TEMPORAL_WARDEN"
+      ]
+    },
+    "DEFILER": {
+      "desc": "<p>堕落者身上有邪恶的印记，他们是世界的祸害，服务于他们的邪恶主人，或者他们自己成为主人。<\/p>",
+      "display_name": "堕落系",
+      "name": "Defiler",
+      "short_name": "DEFILER",
+      "subclass_list": [
+        "REAVER",
+        "CORRUPTOR",
+        "DOOMBRINGER",
+        "DEMONOLOGIST"
+      ]
+    },
+    "DEMENTED": {
+      "desc": "<p>对知识的渴望是大部分奥术使用者的共同特点。<\/p><p>但某些人走得太远，某些人陷入失落的知识中。他们或许得到了巨大的力量，但代价是什么呢？<\/p>",
+      "display_name": "疯狂系",
+      "name": "Demented",
+      "short_name": "DEMENTED",
+      "subclass_list": [
+        "WRITHING_ONE",
+        "CULTIST_OF_ENTROPY"
+      ]
+    },
+    "MAGE": {
+      "desc": "<p>法师们用奥术魔法来武装自己，只要一闪念就能够释放破坏性的法术或者治疗自己<\/p>",
+      "display_name": "法师系",
+      "name": "Mage",
+      "short_name": "MAGE",
+      "subclass_list": [
+        "ALCHEMIST",
+        "ARCHMAGE",
+        "NECROMANCER"
+      ]
+    },
+    "PSIONIC": {
+      "desc": "<p>灵能力者发掘自身的潜在力量。他们经过高度开发的精神力能够利用许多不同的能量源吸收能量，并对现实世界产生影响。<\/p>",
+      "display_name": "灵能系",
+      "name": "Psionic",
+      "short_name": "PSIONIC",
+      "subclass_list": [
+        "MINDSLAYER",
+        "SOLIPSIST",
+        "POSSESSOR"
+      ]
+    },
+    "ROGUE": {
+      "desc": "<p>盗贼是诡计大师，他们可以从阴影中发动攻击，也可以引诱怪物到他们的死亡陷阱里。<\/p>",
+      "display_name": "盗贼系",
+      "name": "Rogue",
+      "short_name": "ROGUE",
+      "subclass_list": [
+        "ROGUE",
+        "SHADOWBLADE",
+        "MARAUDER",
+        "SKIRMISHER"
+      ]
+    },
+    "TINKER": {
+      "desc": "<p>工程师们使用蒸汽科技来强化攻击、防御，……<\/p>",
+      "display_name": "工匠系",
+      "locked_desc": "制造、实验、发现。创造之路永无止境！",
+      "name": "Tinker",
+      "short_name": "TINKER",
+      "subclass_list": [
+        "SAWBUTCHER",
+        "GUNSLINGER",
+        "PSYSHOT",
+        "ANNIHILATOR"
+      ]
+    },
+    "WARRIOR": {
+      "desc": "<p>战士精通于各种物理系战斗技能，他们可以手持双手大剑造成成吨的打击，也可以身穿重甲手持盾牌成为一个强大的护卫。<\/p>",
+      "display_name": "战士系",
+      "name": "Warrior",
+      "short_name": "WARRIOR",
+      "subclass_list": [
+        "BERSERKER",
+        "BULWARK",
+        "ARCHER",
+        "ARCANE_BLADE",
+        "BRAWLER"
+      ]
+    },
+    "WILDER": {
+      "desc": "<p>无论从哪一方面来说，野性系都是大自然的守护者。就像自然的力量多种多样一样，也有着不同的野性系职业。<\/p><p>他们可以继承某些生物的特性技能，也可以召唤生物，或感受德鲁伊的召唤，……<\/p>",
+      "display_name": "野性系",
+      "name": "Wilder",
+      "short_name": "WILDER",
+      "subclass_list": [
+        "SUMMONER",
+        "WYRMIC",
+        "OOZEMANCER",
+        "STONE_WARDEN"
+      ]
+    }
+  },
+  "subclasses": {
+    "ADVENTURER": {
+      "copy_add": {
+        "unused_generics": 2,
+        "unused_talents": 3,
+        "unused_talents_types": 7
+      },
+      "desc": "<p>冒险家可以学习很多技能，他们可以学习任何碰巧发现的技能。<\/p><p><span style=\"font-weight: bold\"><span class=\"tstr-font-bold\"><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\">这是通关后获得的奖励职业，显然它绝对是不平衡的。<\/span><\/span><span style=\"color: #ffffff\"><span class=\"tstr-color-WHITE\"><\/span><\/span><\/span><\/span><\/p><p>他们的职业倾向决定了他们的主属性。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +2 力量, +2 敏捷, +2 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +2 魔力, +2 意志, +2 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +0<\/span><\/span><\/p>",
+      "display_name": "冒险家",
+      "images": [
+        {
+          "file": "npc\/hostile_humanoid_adventurers_party.png"
+        }
+      ],
+      "name": "Adventurer",
+      "short_name": "ADVENTURER",
+      "stats": {
+        "con": 2,
+        "cun": 2,
+        "dex": 2,
+        "mag": 2,
+        "str": 2,
+        "wil": 2
+      },
+      "talents_types_class": [],
+      "talents_types_generic": []
+    },
+    "ALCHEMIST": {
+      "copy_add": {
+        "life_rating": -1
+      },
+      "desc": "<p>炼金术士使用魔法来操纵物质。<\/p><p>他们不使用那些远古的被禁止的法术，那些法术自从魔法大爆炸之后就被人们禁止和追捕。<\/p><p>炼金术士可以将元素力量输入各种宝石，使它们变成火球、酸液和其他效果。另外他们也可以利用宝石来强化装甲并使用法杖发射能量球。<\/p><p>炼金术士自身非常脆弱，但是他们可以建造炼金傀儡来保护他们。傀儡服从主人的意志，并依靠主人来强化它们的力量。<\/p><p>他们最重要的属性是：魔法和体质。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +0 敏捷 , +3 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +5 魔法 , +1 意志 , +0 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> -1<\/span><\/span><\/p>",
+      "display_name": "炼金术师",
+      "images": [
+        {
+          "file": "npc\/humanoid_human_master_alchemist.png"
+        },
+        {
+          "file": "npc\/alchemist_golem.png"
+        }
+      ],
+      "name": "Alchemist",
+      "short_name": "ALCHEMIST",
+      "stats": {
+        "con": 3,
+        "mag": 5,
+        "wil": 1
+      },
+      "talents": {
+        "T_CHANNEL_STAFF": 1,
+        "T_CREATE_ALCHEMIST_GEMS": 1,
+        "T_FIRE_INFUSION": 1,
+        "T_REFIT_GOLEM": 1,
+        "T_THROW_BOMB": 1
+      },
+      "talents_types_class": {
+        "spell\/acid-alchemy": [
+          true,
+          1.3,
+          "法术 \/ 酸性炼金"
+        ],
+        "spell\/advanced-golemancy": [
+          false,
+          1.3,
+          "法术 \/ 高级傀儡"
+        ],
+        "spell\/energy-alchemy": [
+          false,
+          1.3,
+          "法术 \/ 能量炼金"
+        ],
+        "spell\/explosives": [
+          true,
+          1.3,
+          "法术 \/ 爆炸"
+        ],
+        "spell\/fire-alchemy": [
+          true,
+          1.3,
+          "法术 \/ 火焰炼金"
+        ],
+        "spell\/frost-alchemy": [
+          true,
+          1.3,
+          "法术 \/ 冰霜炼金"
+        ],
+        "spell\/golemancy": [
+          true,
+          1.3,
+          "法术 \/ 傀儡"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          false,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "spell\/staff-combat": [
+          true,
+          1.3,
+          "法术 \/ 法杖格斗"
+        ],
+        "spell\/stone-alchemy": [
+          true,
+          1.3,
+          "法术 \/ 岩石炼金"
+        ]
+      }
+    },
+    "ANNIHILATOR": {
+      "copy_add": {
+        "life_rating": -1
+      },
+      "desc": "<p>歼灭者是破坏的大师，他们掌握着最具破坏力的蒸汽科技成果，可以给他们的敌人带来无尽的毁灭。<\/p><p>他们通常装备着装载着实验性弹药的蒸汽枪和一面电力充能的盾牌，但他们也可以装备像火焰喷射器那样的重装武器。<\/p><p>他们比其他的工匠更加精通科学技术，他们使用自动炮台、机械随从和各种各样的强大发明来充实自己的武器库。<\/p><p>他们最重要的属性是：灵巧和敏捷<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +4 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +0 意志 , +5 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> -1<\/span><\/span><\/p>",
+      "display_name": "歼灭者",
+      "images": [],
+      "locked_desc": "研究。制造。歼灭。",
+      "name": "Annihilator",
+      "short_name": "ANNIHILATOR",
+      "stats": {
+        "con": 0,
+        "cun": 5,
+        "dex": 4
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 2,
+        "T_AUTOLOADER": 1,
+        "T_DEPLOY_TURRET": 1,
+        "T_HEAVY_WEAPONS": 1,
+        "T_SHOOT": 1,
+        "T_SMITH": 1,
+        "T_THERAPEUTICS": 1
+      },
+      "talents_types_class": {
+        "steamtech\/artillery": [
+          false,
+          1.3,
+          "蒸汽科技 \/ 火炮"
+        ],
+        "steamtech\/chemical-warfare": [
+          false,
+          1.3,
+          "蒸汽科技 \/ 化学武器"
+        ],
+        "steamtech\/demolition": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 爆破"
+        ],
+        "steamtech\/gadgets": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 工具"
+        ],
+        "steamtech\/heavy-weapons": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 重装武器"
+        ],
+        "steamtech\/magnetism": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 磁化"
+        ],
+        "steamtech\/mecharachnid": [
+          false,
+          1.3,
+          "蒸汽科技 \/ 机械蜘蛛"
+        ],
+        "steamtech\/turrets": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 炮台"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          false,
+          0.9,
+          "灵巧 \/ 生存"
+        ],
+        "steamtech\/blacksmith": [
+          false,
+          1.1,
+          "蒸汽科技 \/ 铁匠"
+        ],
+        "steamtech\/chemistry": [
+          true,
+          1.2,
+          "蒸汽科技 \/ 化学"
+        ],
+        "steamtech\/engineering": [
+          true,
+          1.2,
+          "蒸汽科技 \/ 工程师"
+        ],
+        "steamtech\/physics": [
+          true,
+          1.2,
+          "蒸汽科技 \/ 物理"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "ANORITHIL": {
+      "desc": "<p>星月术士出生于晨曦之门，那是遥远东方自由生活的人们的最后堡垒。<\/p><p>他们的事业受人尊敬，他们的座右铭是：我们站在太阳与月亮之间，光暗交替之界。在灰色的黎明中寻找我们的使命。<\/p><p>他们可以施展太阳、月亮的法术将任何试图破坏太阳堡垒的人消灭。<\/p><p>他们掌握日月魔法，可以使用灼热的太阳射线和群星的愤怒毁灭对手。<\/p><p>他们最重要的属性是：魔法和灵巧。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +0 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +6 魔法 , +0 意志 , +3 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +0<\/span><\/span><\/p>",
+      "display_name": "星月术士",
+      "images": [
+        {
+          "file": "npc\/patrol_sunwall_anorithil_patrol.png"
+        }
+      ],
+      "name": "Anorithil",
+      "short_name": "ANORITHIL",
+      "stats": {
+        "cun": 3,
+        "mag": 6
+      },
+      "talents": {
+        "T_HYMN_ACOLYTE": 1,
+        "T_MOONLIGHT_RAY": 1,
+        "T_SEARING_LIGHT": 1,
+        "T_TWILIGHT": 1
+      },
+      "talents_types_class": {
+        "celestial\/circles": [
+          false,
+          1.3,
+          "天空 \/ 法阵"
+        ],
+        "celestial\/eclipse": [
+          true,
+          1.3,
+          "天空 \/ 日蚀"
+        ],
+        "celestial\/glyphs": [
+          false,
+          1.3,
+          "天空 \/ 圣印"
+        ],
+        "celestial\/star-fury": [
+          true,
+          1.3,
+          "天空 \/ 星怒"
+        ],
+        "celestial\/sunlight": [
+          true,
+          1.3,
+          "天空 \/ 阳光"
+        ],
+        "celestial\/twilight": [
+          true,
+          1.3,
+          "天空 \/ 黄昏"
+        ]
+      },
+      "talents_types_generic": {
+        "celestial\/chants": [
+          true,
+          1.3,
+          "天空 \/ 赞歌"
+        ],
+        "celestial\/hymns": [
+          true,
+          1.3,
+          "天空 \/ 圣诗"
+        ],
+        "celestial\/light": [
+          true,
+          1.3,
+          "天空 \/ 光系"
+        ],
+        "cunning\/survival": [
+          false,
+          1,
+          "灵巧 \/ 生存"
+        ]
+      }
+    },
+    "ARCANE_BLADE": {
+      "copy_add": {
+        "life_rating": 2
+      },
+      "desc": "<p>奥术之刃是一个拥有魔法的战士。<\/p><p>他们的魔法并非习得而是与生俱来的，因此他们不能依靠自然的法力恢复而必须依靠额外的方法来恢复法力值。<\/p><p>他们能施展一些有限的法术，同时也能将法术融合在他们的近战攻击中。<\/p><p>他们擅长使用双手武器，造成最大的伤害<\/p><p>他们最重要的属性是：力量、灵巧和魔法。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +3 力量 , +0 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +3 魔法 , +0 意志 , +3 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +2<\/span><\/span><\/p>",
+      "display_name": "奥术之刃",
+      "images": [
+        {
+          "file": "npc\/humanoid_human_arcane_blade.png"
+        }
+      ],
+      "name": "Arcane Blade",
+      "short_name": "ARCANE_BLADE",
+      "stats": {
+        "cun": 3,
+        "mag": 3,
+        "str": 3
+      },
+      "talents": {
+        "T_ARCANE_COMBAT": 1,
+        "T_DIRTY_FIGHTING": 1,
+        "T_FLAME": 1,
+        "T_WEAPONS_MASTERY": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "cunning\/dirty": [
+          true,
+          1.3,
+          "灵巧 \/ 卑劣攻击"
+        ],
+        "spell\/air": [
+          true,
+          1.3,
+          "法术 \/ 大气"
+        ],
+        "spell\/earth": [
+          true,
+          1.3,
+          "法术 \/ 土"
+        ],
+        "spell\/enhancement": [
+          true,
+          1.3,
+          "法术 \/ 附魔"
+        ],
+        "spell\/fire": [
+          true,
+          1.3,
+          "法术 \/ 火焰"
+        ],
+        "spell\/stone": [
+          false,
+          1.3,
+          "法术 \/ 石"
+        ],
+        "technique\/2hweapon-assault": [
+          false,
+          1,
+          "格斗 \/ 双手战技"
+        ],
+        "technique\/combat-techniques-active": [
+          true,
+          1,
+          "格斗 \/ 战斗技巧"
+        ],
+        "technique\/combat-techniques-passive": [
+          false,
+          1,
+          "格斗 \/ 战斗经验"
+        ],
+        "technique\/dualweapon-attack": [
+          false,
+          1,
+          "格斗 \/ 双持战技"
+        ],
+        "technique\/magical-combat": [
+          true,
+          1.3,
+          "格斗 \/ 魔法格斗"
+        ],
+        "technique\/shield-offense": [
+          false,
+          1,
+          "格斗 \/ 盾牌攻击"
+        ],
+        "technique\/superiority": [
+          false,
+          1.3,
+          "格斗 \/ 战术优化"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "spell\/aegis": [
+          true,
+          1,
+          "法术 \/ 防护"
+        ],
+        "spell\/conveyance": [
+          true,
+          1,
+          "法术 \/ 传送"
+        ],
+        "technique\/combat-training": [
+          true,
+          1,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "ARCHER": {
+      "desc": "<p>弓箭手是身手矫健的远程战士，能将他的敌人钉在原地再射出如雨般的箭矢消灭对手。<\/p><p>高等级的弓箭手可以射出特殊的箭矢，可以是射穿目标，减速或者使目标钉在原地。<\/p><p>弓箭手可以使用长弓和投石索。<\/p><p>他们最重要的属性是：敏捷和力量（装备弓时）或灵巧 (装备投石索)<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +2 力量 , +5 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +0 意志 , +2 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +0<\/span><\/span><\/p>",
+      "display_name": "弓箭手",
+      "images": [
+        {
+          "file": "npc\/humanoid_thalore_thalore_hunter.png"
+        },
+        {
+          "file": "npc\/humanoid_halfling_halfling_slinger.png"
+        }
+      ],
+      "name": "Archer",
+      "short_name": "ARCHER",
+      "stats": {
+        "cun": 2,
+        "dex": 5,
+        "str": 2
+      },
+      "talents": {
+        "T_DISENGAGE": 1,
+        "T_HEADSHOT": 1,
+        "T_MASTER_MARKSMAN": 1,
+        "T_STEADY_SHOT": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "cunning\/poisons": [
+          false,
+          1,
+          "灵巧 \/ 毒素",
+          true
+        ],
+        "cunning\/trapping": [
+          false,
+          1.3,
+          "灵巧 \/ 陷阱制作"
+        ],
+        "technique\/agility": [
+          false,
+          1.3,
+          "格斗 \/ 敏捷"
+        ],
+        "technique\/archery-training": [
+          true,
+          1.3,
+          "格斗 \/ 箭术训练"
+        ],
+        "technique\/archery-utility": [
+          true,
+          1.3,
+          "格斗 \/ 强化箭"
+        ],
+        "technique\/combat-techniques-active": [
+          true,
+          1,
+          "格斗 \/ 战斗技巧"
+        ],
+        "technique\/combat-techniques-passive": [
+          true,
+          1,
+          "格斗 \/ 战斗经验"
+        ],
+        "technique\/marksmanship": [
+          true,
+          1.3,
+          "格斗 \/ 神枪手"
+        ],
+        "technique\/reflexes": [
+          true,
+          1.3,
+          "格斗 \/ 反射神经"
+        ],
+        "technique\/sniper": [
+          false,
+          1.3,
+          "格斗 \/ 狙击"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ],
+        "technique\/conditioning": [
+          false,
+          1,
+          "格斗 \/ 体质强化"
+        ],
+        "technique\/mobility": [
+          true,
+          1,
+          "格斗 \/ 移动"
+        ]
+      }
+    },
+    "ARCHMAGE": {
+      "copy_add": {
+        "life_rating": -4
+      },
+      "desc": "<p>对一个元素法师来说魔法超越一切，他们倾尽一生学习魔法。<\/p><p>元素法师缺乏最基本的物理格斗技能，他们用魔法取而代之。<\/p><p>元素法师学习各种学科的魔法知识。然而，他们通常拒绝任何死灵法术。<\/p><p>元素法师在一个名叫安格利文的秘密小镇接受训练，并拥有一个直接传送到那里的独特技能。<\/p><p>他们最重要的属性是：魔法和意志。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +0 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +5 魔法 , +3 意志 , +1 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> -4<\/span><\/span><\/p>",
+      "display_name": "元素法师",
+      "images": [
+        {
+          "file": "npc\/humanoid_shalore_elven_tempest-resized.png",
+          "height": 80,
+          "width": 64
+        },
+        {
+          "file": "npc\/humanoid_human_pyromancer-cropped.png",
+          "height": 80,
+          "width": 64
+        }
+      ],
+      "name": "Archmage",
+      "short_name": "ARCHMAGE",
+      "stats": {
+        "cun": 1,
+        "mag": 5,
+        "wil": 3
+      },
+      "talents": {
+        "T_FLAME": 1,
+        "T_LIGHTNING": 1,
+        "T_MANATHRUST": 1,
+        "T_PHASE_DOOR": 1
+      },
+      "talents_types_class": {
+        "spell\/aether": [
+          false,
+          1.3,
+          "法术 \/ 以太"
+        ],
+        "spell\/air": [
+          true,
+          1.3,
+          "法术 \/ 大气"
+        ],
+        "spell\/arcane": [
+          true,
+          1.3,
+          "法术 \/ 奥术"
+        ],
+        "spell\/earth": [
+          true,
+          1.3,
+          "法术 \/ 土"
+        ],
+        "spell\/fire": [
+          true,
+          1.3,
+          "法术 \/ 火焰"
+        ],
+        "spell\/ice": [
+          false,
+          1.3,
+          "法术 \/ 寒冰"
+        ],
+        "spell\/meta": [
+          false,
+          1.3,
+          "法术 \/ 超魔"
+        ],
+        "spell\/phantasm": [
+          true,
+          1.3,
+          "法术 \/ 幻术"
+        ],
+        "spell\/stone": [
+          false,
+          1.3,
+          "法术 \/ 石"
+        ],
+        "spell\/storm": [
+          false,
+          1.3,
+          "法术 \/ 风暴"
+        ],
+        "spell\/temporal": [
+          true,
+          1.3,
+          "法术 \/ 时空"
+        ],
+        "spell\/water": [
+          true,
+          1.3,
+          "法术 \/ 水"
+        ],
+        "spell\/wildfire": [
+          false,
+          1.3,
+          "法术 \/ 焱"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          false,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "spell\/aegis": [
+          true,
+          1.3,
+          "法术 \/ 防护"
+        ],
+        "spell\/conveyance": [
+          true,
+          1.3,
+          "法术 \/ 传送"
+        ],
+        "spell\/divination": [
+          true,
+          1.3,
+          "法术 \/ 侦查"
+        ]
+      }
+    },
+    "BERSERKER": {
+      "copy_add": {
+        "life_rating": 3
+      },
+      "desc": "<p>狂战士手持双手武器，以毁灭性的伤害将他的敌人砍成两半。<\/p><p>狂战士通常专注于造成伤害而忽视自我防御。<\/p><p>他们最重要的属性是力量和体质。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +5 力量 , +1 敏捷 , +3 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +0 意志 , +0 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +3<\/span><\/span><\/p>",
+      "display_name": "狂战士",
+      "images": [
+        {
+          "file": "npc\/humanoid_dwarf_norgan.png"
+        }
+      ],
+      "name": "Berserker",
+      "short_name": "BERSERKER",
+      "stats": {
+        "con": 3,
+        "dex": 1,
+        "str": 5
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 1,
+        "T_STUNNING_BLOW_ASSAULT": 1,
+        "T_WARSHOUT_BERSERKER": 1,
+        "T_WEAPONS_MASTERY": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "cunning\/dirty": [
+          false,
+          1,
+          "灵巧 \/ 卑劣攻击"
+        ],
+        "technique\/2hweapon-assault": [
+          true,
+          1.3,
+          "格斗 \/ 双手战技"
+        ],
+        "technique\/bloodthirst": [
+          false,
+          1.3,
+          "格斗 \/ 嗜血"
+        ],
+        "technique\/combat-techniques-active": [
+          true,
+          1.3,
+          "格斗 \/ 战斗技巧"
+        ],
+        "technique\/combat-techniques-passive": [
+          true,
+          1.3,
+          "格斗 \/ 战斗经验"
+        ],
+        "technique\/strength-of-the-berserker": [
+          true,
+          1.3,
+          "格斗 \/ 狂暴之力"
+        ],
+        "technique\/superiority": [
+          false,
+          1.3,
+          "格斗 \/ 战术优化"
+        ],
+        "technique\/warcries": [
+          false,
+          1.3,
+          "格斗 \/ 战吼"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ],
+        "technique\/conditioning": [
+          true,
+          1.3,
+          "格斗 \/ 体质强化"
+        ]
+      }
+    },
+    "BRAWLER": {
+      "copy_add": {
+        "life_rating": 2
+      },
+      "desc": "<p>魔法大爆炸造成的物资匮乏使得武器成为一种奢侈品，并不是每个人都能担负的起。<\/p><p>没有钢铁打造的装备，穷人们开始依靠他们自身的力量开始与黑暗斗争。<\/p><p>无论是一个职业拳手还是个业余的门外汉，格斗技能直到现在仍然十分有用<\/p><p>格斗家的许多技能可以累积连击点数然后用一个终结技能造成额外的打击效果。<\/p><p>格斗家徒手战斗依靠双手的灵活机动性，所以他们无法学习装备重甲、盾牌或者武器。<\/p><p>他们最重要的属性是：力量、敏捷和灵巧<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +3 力量 , +3 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +0 意志 , +3 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +2<\/span><\/span><\/p>",
+      "display_name": "格斗家",
+      "images": [
+        {
+          "file": "npc\/humanoid_human_slave_combatant.png"
+        }
+      ],
+      "locked_desc": "虽然你击败了许多对手，你也知道你命中注定要战斗至死，但你毫不退缩，在鲜血之环你会知道只有依靠你的双拳来面对这个世界。",
+      "name": "Brawler",
+      "short_name": "BRAWLER",
+      "stats": {
+        "cun": 3,
+        "dex": 3,
+        "str": 3
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 1,
+        "T_DOUBLE_STRIKE": 1,
+        "T_UNARMED_MASTERY": 1,
+        "T_UPPERCUT": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "cunning\/dirty": [
+          false,
+          1,
+          "灵巧 \/ 卑劣攻击"
+        ],
+        "cunning\/tactical": [
+          true,
+          1.3,
+          "灵巧 \/ 战术"
+        ],
+        "technique\/combat-techniques-active": [
+          true,
+          1.3,
+          "格斗 \/ 战斗技巧"
+        ],
+        "technique\/combat-techniques-passive": [
+          true,
+          1,
+          "格斗 \/ 战斗经验"
+        ],
+        "technique\/finishing-moves": [
+          true,
+          1.3,
+          "格斗 \/ 终结技"
+        ],
+        "technique\/grappling": [
+          false,
+          1.3,
+          "格斗 \/ 关节技"
+        ],
+        "technique\/pugilism": [
+          true,
+          1.3,
+          "格斗 \/ 拳术"
+        ],
+        "technique\/unarmed-discipline": [
+          false,
+          1.3,
+          "格斗 \/ 徒手格斗"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "technique\/combat-training": [
+          true,
+          1,
+          "格斗 \/ 战斗训练"
+        ],
+        "technique\/conditioning": [
+          true,
+          1.3,
+          "格斗 \/ 体质强化"
+        ],
+        "technique\/mobility": [
+          true,
+          1.3,
+          "格斗 \/ 移动"
+        ],
+        "technique\/unarmed-training": [
+          true,
+          1.3,
+          "格斗 \/ 徒手训练"
+        ]
+      }
+    },
+    "BULWARK": {
+      "copy_add": {
+        "life_rating": 6
+      },
+      "desc": "<p>盾战士精通于武器和使用盾牌格斗，并拥有极高的防御技能。<\/p><p>一个好的盾战士能够使用盾牌承受来自各方的攻击，当时机一到就立即将对手置于死地。<\/p><p>他们最重要的属性是：力量和敏捷。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +5 力量 , +2 敏捷 , +2 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +0 意志 , +0 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +6<\/span><\/span><\/p>",
+      "display_name": "盾战士",
+      "images": [
+        {
+          "file": "npc\/humanoid_human_last_hope_guard.png"
+        }
+      ],
+      "name": "Bulwark",
+      "short_name": "BULWARK",
+      "stats": {
+        "con": 2,
+        "dex": 2,
+        "str": 5
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 2,
+        "T_SHIELD_PUMMEL": 1,
+        "T_SHIELD_WALL": 1,
+        "T_WEAPONS_MASTERY": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "cunning\/dirty": [
+          false,
+          1,
+          "灵巧 \/ 卑劣攻击"
+        ],
+        "technique\/battle-tactics": [
+          false,
+          1.3,
+          "格斗 \/ 战争策略"
+        ],
+        "technique\/combat-techniques-active": [
+          true,
+          1.3,
+          "格斗 \/ 战斗技巧"
+        ],
+        "technique\/combat-techniques-passive": [
+          true,
+          1.3,
+          "格斗 \/ 战斗经验"
+        ],
+        "technique\/shield-defense": [
+          true,
+          1.3,
+          "格斗 \/ 盾牌防御"
+        ],
+        "technique\/shield-offense": [
+          true,
+          1.3,
+          "格斗 \/ 盾牌攻击"
+        ],
+        "technique\/superiority": [
+          false,
+          1.3,
+          "格斗 \/ 战术优化"
+        ],
+        "technique\/warcries": [
+          false,
+          1.3,
+          "格斗 \/ 战吼"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ],
+        "technique\/conditioning": [
+          true,
+          1.3,
+          "格斗 \/ 体质强化"
+        ]
+      }
+    },
+    "CORRUPTOR": {
+      "desc": "<p>堕落者是一个恐怖的对手，使用黑暗魔法并汲取目标的灵魂。<\/p><p>他们驾驭邪恶的枯萎术，粉碎灵魂，偷取生命力量来治疗自己。<\/p><p>最强大的堕落者甚至可以掌握恶魔的力量。<\/p><p>他们最重要的属性是：魔法和意志。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +0 敏捷 , +2 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +4 魔法 , +3 意志 , +0 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +0<\/span><\/span><\/p>",
+      "display_name": "堕落者",
+      "images": [
+        {
+          "file": "npc\/humanoid_shalore_elven_corruptor.png"
+        },
+        {
+          "file": "npc\/humanoid_shalore_elven_blood_mage.png"
+        }
+      ],
+      "name": "Corruptor",
+      "short_name": "CORRUPTOR",
+      "stats": {
+        "con": 2,
+        "mag": 4,
+        "wil": 3
+      },
+      "talents": {
+        "T_BLOOD_SPRAY": 1,
+        "T_DRAIN": 1,
+        "T_PACIFICATION_HEX": 1,
+        "T_SOUL_ROT": 1
+      },
+      "talents_types_class": {
+        "corruption\/blight": [
+          true,
+          1.3,
+          "堕落 \/ 枯萎"
+        ],
+        "corruption\/blood": [
+          true,
+          1.3,
+          "堕落 \/ 血"
+        ],
+        "corruption\/bone": [
+          false,
+          1.3,
+          "堕落 \/ 骨"
+        ],
+        "corruption\/plague": [
+          true,
+          1.3,
+          "堕落 \/ 瘟疫"
+        ],
+        "corruption\/sanguisuge": [
+          true,
+          1.3,
+          "堕落 \/ 水蛭"
+        ],
+        "corruption\/shadowflame": [
+          false,
+          1.3,
+          "堕落 \/ 暗影烈焰"
+        ],
+        "corruption\/vim": [
+          true,
+          1.3,
+          "堕落 \/ 活力"
+        ]
+      },
+      "talents_types_generic": {
+        "corruption\/curses": [
+          true,
+          1.3,
+          "堕落 \/ 诅咒"
+        ],
+        "corruption\/hexes": [
+          true,
+          1.3,
+          "堕落 \/ 邪术"
+        ],
+        "corruption\/torment": [
+          true,
+          1.3,
+          "堕落 \/ 折磨"
+        ],
+        "cunning\/survival": [
+          false,
+          1,
+          "灵巧 \/ 生存"
+        ]
+      }
+    },
+    "CULTIST_OF_ENTROPY": {
+      "copy_add": {
+        "life_rating": -4
+      },
+      "desc": "<p>熵教徒是被诅咒的存在，他们能使用熵作为武器。他们的法术产生熵能反冲伤害自身，但他们学会如何抵抗反冲甚至将其转移至敌人身上。<\/p><p>他们最重要的属性是：魔法和灵巧。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +0 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +6 魔法 , +0 意志 , +3 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> -4<\/span><\/span><\/p>",
+      "display_name": "熵教徒",
+      "images": [],
+      "locked_desc": "万物终将消亡。这一点可以被利用。",
+      "name": "Cultist of Entropy",
+      "short_name": "CULTIST_OF_ENTROPY",
+      "stats": {
+        "cun": 3,
+        "mag": 6
+      },
+      "talents": {
+        "T_CHAOS_ORBS": 1,
+        "T_ENTROPIC_GIFT": 1,
+        "T_NETHERBLAST": 1,
+        "T_VOID_STARS": 1
+      },
+      "talents_types_class": {
+        "demented\/chronophage": [
+          false,
+          1.3,
+          "疯狂 \/ 耗竭"
+        ],
+        "demented\/entropy": [
+          true,
+          1.3,
+          "疯狂 \/ 熵"
+        ],
+        "demented\/madness": [
+          true,
+          1.3,
+          "疯狂 \/ 疯狂"
+        ],
+        "demented\/nether": [
+          true,
+          1.3,
+          "疯狂 \/ 虚空"
+        ],
+        "demented\/oblivion": [
+          false,
+          1.3,
+          "疯狂 \/ 毁灭"
+        ],
+        "demented\/rift": [
+          false,
+          1.3,
+          "疯狂 \/ 裂隙"
+        ],
+        "demented\/timethief": [
+          true,
+          1.3,
+          "疯狂 \/ 偷窃时间"
+        ],
+        "demented\/void": [
+          true,
+          1.3,
+          "疯狂 \/ 虚空"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          false,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "demented\/beyond-sanity": [
+          true,
+          1.3,
+          "疯狂 \/ 非理性"
+        ],
+        "demented\/calamity": [
+          true,
+          1.3,
+          "疯狂 \/ 不幸"
+        ],
+        "demented\/doom": [
+          true,
+          1.3,
+          "疯狂 \/ 末日"
+        ]
+      }
+    },
+    "CURSED": {
+      "copy_add": {
+        "life_rating": 2
+      },
+      "desc": "<p>被诅咒者曾经因为无知、贪婪或者愚昧，服从于黑暗的指示。现在，他们因罪恶而身受灾难折磨。<\/p><p>他们现在唯一的主人，是对那些生者心中的憎恨。<\/p><p>他们从他们遇到的死亡中吸取力量，成为恐怖的战士。<\/p><p>更可怕的是，任何接近被诅咒者的人，会受可怕光环的影响而发狂。<\/p><p>他们最重要的属性是：力量和意志。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +5 力量 , +0 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +4 意志 , +0 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +2<\/span><\/span><\/p>",
+      "display_name": "被诅咒者",
+      "images": [
+        {
+          "file": "npc\/humanoid_human_ben_cruthdar__the_cursed.png"
+        }
+      ],
+      "name": "Cursed",
+      "short_name": "CURSED",
+      "stats": {
+        "str": 5,
+        "wil": 4
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 1,
+        "T_GLOOM": 1,
+        "T_SLASH": 1,
+        "T_UNNATURAL_BODY": 1,
+        "T_WEAPONS_MASTERY": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "cursed\/endless-hunt": [
+          true,
+          1.3,
+          "诅咒 \/ 无尽狩猎"
+        ],
+        "cursed\/fears": [
+          false,
+          1,
+          "诅咒 \/ 恐惧"
+        ],
+        "cursed\/gloom": [
+          true,
+          1.3,
+          "诅咒 \/ 黑暗光环"
+        ],
+        "cursed\/predator": [
+          true,
+          1.3,
+          "诅咒 \/ 猎杀"
+        ],
+        "cursed\/rampage": [
+          false,
+          1.3,
+          "诅咒 \/ 暴走"
+        ],
+        "cursed\/slaughter": [
+          true,
+          1.3,
+          "诅咒 \/ 杀戮"
+        ],
+        "cursed\/strife": [
+          true,
+          1.3,
+          "诅咒 \/ 冲突"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          false,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "cursed\/cursed-form": [
+          true,
+          1,
+          "诅咒 \/ 诅咒形态"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "DEMONOLOGIST": {
+      "copy_add": {
+        "life_rating": 2
+      },
+      "desc": "<p>不同于众人所相信的，恶魔使者并非恶魔的走卒。他们只是小心谨慎地与恶魔签订契约。<\/p><p>他们利用恶魔之力达成所愿，无论善恶，亦有少数人以此反击恶魔。<\/p><p>恶魔使者是近身格斗的战士，用盾牌击碎敌人的头颅，同时能呼唤黑暗与火焰之力。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +3 力量, +0 敏捷, +2 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +4 魔法 , +0 意志 , +0 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +2<\/span><\/span><\/p>",
+      "display_name": "恶魔使者",
+      "images": [
+        {
+          "file": "npc\/humanoid_shalore_elven_warrior.png"
+        },
+        {
+          "file": "npc\/demon_minor_fire_imp.png"
+        }
+      ],
+      "name": "Demonologist",
+      "short_name": "DEMONOLOGIST",
+      "stats": {
+        "con": 2,
+        "mag": 4,
+        "str": 3
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 2,
+        "T_BLEAK_OUTCOME": 1,
+        "T_DEMON_SEED": 1,
+        "T_FLAME_LEASH": 1,
+        "T_SHIELD_PUMMEL": 1,
+        "T_WEAPONS_MASTERY": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "corruption\/demonic-pact": [
+          true,
+          1.3,
+          "堕落 \/ 恶魔契约"
+        ],
+        "corruption\/doom-covenant": [
+          false,
+          1.3,
+          "堕落 \/ 末日降临"
+        ],
+        "corruption\/doom-shield": [
+          true,
+          1.3,
+          "堕落 \/ 毁灭之盾"
+        ],
+        "corruption\/infernal-combat": [
+          true,
+          1.3,
+          "堕落 \/ 地狱格斗"
+        ],
+        "corruption\/shadowflame": [
+          true,
+          1.3,
+          "堕落 \/ 暗影烈焰"
+        ],
+        "corruption\/spellblaze": [
+          false,
+          1.3,
+          "堕落 \/ 魔法大爆炸"
+        ],
+        "technique\/combat-techniques-active": [
+          true,
+          1.3,
+          "格斗 \/ 战斗技巧"
+        ],
+        "technique\/combat-techniques-passive": [
+          true,
+          1.3,
+          "格斗 \/ 战斗经验"
+        ],
+        "technique\/shield-offense": [
+          true,
+          1.3,
+          "格斗 \/ 盾牌攻击"
+        ]
+      },
+      "talents_types_generic": {
+        "corruption\/black-magic": [
+          true,
+          1.3,
+          "堕落 \/ 黑暗魔法"
+        ],
+        "corruption\/torment": [
+          true,
+          1.3,
+          "堕落 \/ 折磨"
+        ],
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "technique\/combat-training": [
+          true,
+          1,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "DOOMBRINGER": {
+      "copy_add": {
+        "life_rating": 3
+      },
+      "desc": "<p>利刃在手，烈焰匿踪，毁灭使者是战斗中的强大力量。<\/p><p>毁灭使者是纯粹的战争机器，使用利刃和烈焰直接凿穿敌人的军队。<\/p><p>最强大的毁灭使者可以全面激发恶魔血脉，变身成为巨大的恶魔。<\/p><p>他们最重要的属性是：力量和魔法。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +4 力量, +0 敏捷, +2 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +2 魔法, +0 意志, +1 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +3<\/span><\/span><\/p>",
+      "display_name": "毁灭使者",
+      "images": [
+        {
+          "file": "npc\/demon_major_champion_of_urh_rok-cropped.png",
+          "height": 106,
+          "width": 64
+        }
+      ],
+      "name": "Doombringer",
+      "short_name": "DOOMBRINGER",
+      "stats": {
+        "con": 2,
+        "cun": 1,
+        "mag": 2,
+        "str": 4
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 1,
+        "T_DRAINING_ASSAULT": 1,
+        "T_INCINERATING_BLOWS": 1,
+        "T_STAMINA_POOL": 1,
+        "T_WEAPONS_MASTERY": 1,
+        "T_WEAPON_COMBAT": 1,
+        "T_WRAITHFORM": 1
+      },
+      "talents_types_class": {
+        "corruption\/brutality": [
+          true,
+          1.3,
+          "堕落 \/ 残暴"
+        ],
+        "corruption\/fearfire": [
+          false,
+          1.3,
+          "堕落 \/ 恐惧之炎"
+        ],
+        "corruption\/heart-of-fire": [
+          true,
+          1.3,
+          "堕落 \/ 狱火之核"
+        ],
+        "corruption\/shadowflame": [
+          true,
+          1.3,
+          "堕落 \/ 暗影烈焰"
+        ],
+        "corruption\/torture": [
+          true,
+          1.3,
+          "堕落 \/ 折磨"
+        ],
+        "corruption\/wrath": [
+          false,
+          1.3,
+          "堕落 \/ 愤怒"
+        ],
+        "technique\/combat-techniques-active": [
+          true,
+          1.3,
+          "格斗 \/ 战斗技巧"
+        ],
+        "technique\/combat-techniques-passive": [
+          true,
+          1.3,
+          "格斗 \/ 战斗经验"
+        ]
+      },
+      "talents_types_generic": {
+        "corruption\/demonic-strength": [
+          true,
+          1.3,
+          "堕落 \/ 恶魔之力"
+        ],
+        "corruption\/hexes": [
+          true,
+          1.1,
+          "堕落 \/ 邪术"
+        ],
+        "corruption\/oppression": [
+          true,
+          1.3,
+          "堕落 \/ 压制"
+        ],
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "DOOMED": {
+      "copy_add": [],
+      "desc": "<p>末日使者是一些堕落的法师，他们曾经由于野心，通过黑暗的契约，获得了强大的魔法。<\/p><p>被黑暗剥夺了魔法力量的他们，开始学习如何驱使他们心头燃烧的憎恨的力量。<\/p><p>只有时间会证明他们是选择了一条新的道路还是一条永远的末日惩罚之路。<\/p><p>末日使者操纵阴影，从黑暗中发动攻击。<\/p><p>他们可以汲取敌人的灵魂，并对所有面对它的人的精神施加惩罚<\/p><p>他们最重要的属性是：意志和灵巧。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +0 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +4 意志 , +5 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +0<\/span><\/span><\/p>",
+      "display_name": "末日使者",
+      "images": [
+        {
+          "file": "npc\/shadow-caster.png"
+        }
+      ],
+      "name": "Doomed",
+      "short_name": "DOOMED",
+      "stats": {
+        "cun": 5,
+        "wil": 4
+      },
+      "talents": {
+        "T_CALL_SHADOWS": 1,
+        "T_FEED": 1,
+        "T_GESTURE_OF_PAIN": 1,
+        "T_UNNATURAL_BODY": 1,
+        "T_WILLFUL_STRIKE": 1
+      },
+      "talents_types_class": {
+        "cursed\/advanced-shadowmancy": [
+          false,
+          1.3,
+          "诅咒 \/ 阴影进阶"
+        ],
+        "cursed\/darkness": [
+          true,
+          1.3,
+          "诅咒 \/ 暗影"
+        ],
+        "cursed\/fears": [
+          false,
+          1.3,
+          "诅咒 \/ 恐惧"
+        ],
+        "cursed\/force-of-will": [
+          true,
+          1.3,
+          "诅咒 \/ 意志之力"
+        ],
+        "cursed\/one-with-shadows": [
+          false,
+          1.3,
+          "诅咒 \/ 同化阴影"
+        ],
+        "cursed\/punishments": [
+          true,
+          1.3,
+          "诅咒 \/ 惩罚"
+        ],
+        "cursed\/shadows": [
+          true,
+          1.3,
+          "诅咒 \/ 阴影"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          false,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "cursed\/cursed-form": [
+          true,
+          1,
+          "诅咒 \/ 诅咒形态"
+        ],
+        "cursed\/dark-sustenance": [
+          true,
+          1.3,
+          "诅咒 \/ 黑暗生存"
+        ],
+        "cursed\/gestures": [
+          true,
+          1.3,
+          "诅咒 \/ 手势"
+        ]
+      }
+    },
+    "EMPYREAL": {
+      "desc": "<p>他们最重要的属性是：魔法和体质。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +0 敏捷 , +3 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +6 魔法, +0 意志, +0 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +0<\/span><\/span><\/p>",
+      "display_name": "高天者",
+      "images": [],
+      "name": "Empyreal",
+      "short_name": "EMPYREAL",
+      "stats": {
+        "con": 3,
+        "mag": 6
+      },
+      "talents": {
+        "T_LUNAR_ORB": 1,
+        "T_SOLAR_ORB": 1
+      },
+      "talents_types_class": {
+        "celestial\/circles": [
+          false,
+          1.2,
+          "天空 \/ 法阵"
+        ],
+        "celestial\/cosmic": [
+          true,
+          1.3,
+          "天空 \/ 宇宙"
+        ],
+        "celestial\/energies": [
+          true,
+          1.3,
+          "天空 \/ 能量"
+        ],
+        "celestial\/reflection": [
+          true,
+          1.3,
+          "天空 \/ 反射"
+        ],
+        "celestial\/sol": [
+          true,
+          1.3,
+          "天空 \/ 太阳"
+        ],
+        "celestial\/twilight": [
+          false,
+          1,
+          "天空 \/ 黄昏"
+        ],
+        "celestial\/void": [
+          false,
+          1.2,
+          "天空 \/ 虚空"
+        ]
+      },
+      "talents_types_generic": {
+        "celestial\/chants": [
+          true,
+          1.2,
+          "天空 \/ 赞歌"
+        ],
+        "celestial\/hymns": [
+          false,
+          1.2,
+          "天空 \/ 圣诗"
+        ],
+        "celestial\/light": [
+          true,
+          1,
+          "天空 \/ 光系"
+        ],
+        "cunning\/survival": [
+          false,
+          1,
+          "灵巧 \/ 生存"
+        ]
+      }
+    },
+    "GUNSLINGER": {
+      "copy_add": {
+        "life_rating": -1
+      },
+      "desc": "<p>双持蒸汽枪的工程师。<\/p><p>他们最重要的属性是：灵巧和敏捷<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量, +4 敏捷, +1 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法, +0 意志, +4 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> -1<\/span><\/span><\/p>",
+      "display_name": "枪手",
+      "images": [
+        {
+          "file": "npc\/humanoid_orc_orc_gunslinger.png"
+        }
+      ],
+      "locked_desc": "制造、实验、发现。创造之路永无止境！",
+      "name": "Gunslinger",
+      "short_name": "GUNSLINGER",
+      "stats": {
+        "con": 1,
+        "cun": 4,
+        "dex": 4
+      },
+      "talents": {
+        "T_SHOOT": 1,
+        "T_SMITH": 1,
+        "T_STEAMGUN_MASTERY": 1,
+        "T_STRAFE": 1,
+        "T_THERAPEUTICS": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "steamtech\/automation": [
+          false,
+          1.3,
+          "蒸汽科技 \/ 自动化"
+        ],
+        "steamtech\/avoidance": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 闪避"
+        ],
+        "steamtech\/bullets-mastery": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 子弹掌握"
+        ],
+        "steamtech\/elusiveness": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 狡诈"
+        ],
+        "steamtech\/gunner-training": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 枪支训练"
+        ],
+        "steamtech\/gunslinging": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 枪手"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          false,
+          0.9,
+          "灵巧 \/ 生存"
+        ],
+        "steamtech\/blacksmith": [
+          false,
+          1.1,
+          "蒸汽科技 \/ 铁匠"
+        ],
+        "steamtech\/chemistry": [
+          true,
+          1.2,
+          "蒸汽科技 \/ 化学"
+        ],
+        "steamtech\/engineering": [
+          true,
+          1.2,
+          "蒸汽科技 \/ 工程师"
+        ],
+        "steamtech\/physics": [
+          true,
+          1.2,
+          "蒸汽科技 \/ 物理"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "MARAUDER": {
+      "desc": "<p>埃亚尔的野外不是个安全的地方。野兽和到处游荡的龙似乎是巨大的威胁，然而真正危险的是两条腿的人。窃贼、强盗、刺客投机冒险家、疯狂的巫师甚至狂热的猎魔者都会让那些走出安全的城墙之外的冒险者丧命。<\/p><p>在这混乱之中诞生了一种特殊的盗贼，他们擅于正面交锋而不是使用诡计。拥有精准特技、灵巧步伐和锋利刀刃的掠夺者搜寻他的目标并直接消灭他们。他们通过高等战斗训练使双持武器更加有效，情形不利时他们不会忌讳使用肮脏的手段取得胜利。<\/p><p>他们最重要的技能是：力量、敏捷和灵巧。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +4 力量 , +4 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +0 意志 , +1 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +0<\/span><\/span><\/p>",
+      "display_name": "掠夺者",
+      "images": [
+        {
+          "file": "npc\/humanoid_human_rej_arkatis-cropped.png",
+          "height": 78,
+          "width": 64
+        }
+      ],
+      "name": "Marauder",
+      "short_name": "MARAUDER",
+      "stats": {
+        "cun": 1,
+        "dex": 4,
+        "str": 4
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 1,
+        "T_DIRTY_FIGHTING": 1,
+        "T_DUAL_STRIKE": 1,
+        "T_KNIFE_MASTERY": 1,
+        "T_SKULLCRACKER": 1,
+        "T_VITALITY": 1
+      },
+      "talents_types_class": {
+        "cunning\/dirty": [
+          true,
+          1.3,
+          "灵巧 \/ 卑劣攻击"
+        ],
+        "cunning\/poisons": [
+          false,
+          1,
+          "灵巧 \/ 毒素",
+          true
+        ],
+        "cunning\/tactical": [
+          false,
+          1.3,
+          "灵巧 \/ 战术"
+        ],
+        "technique\/battle-tactics": [
+          false,
+          1.3,
+          "格斗 \/ 战争策略"
+        ],
+        "technique\/bloodthirst": [
+          false,
+          1,
+          "格斗 \/ 嗜血"
+        ],
+        "technique\/combat-techniques-active": [
+          true,
+          1.3,
+          "格斗 \/ 战斗技巧"
+        ],
+        "technique\/combat-techniques-passive": [
+          true,
+          1,
+          "格斗 \/ 战斗经验"
+        ],
+        "technique\/dualweapon-attack": [
+          true,
+          1.3,
+          "格斗 \/ 双持战技"
+        ],
+        "technique\/duelist": [
+          true,
+          1.3,
+          "格斗 \/ 决斗专家"
+        ],
+        "technique\/throwing-knives": [
+          true,
+          1,
+          "格斗 \/ 飞刀"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          true,
+          1.3,
+          "灵巧 \/ 生存"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ],
+        "technique\/conditioning": [
+          true,
+          1.3,
+          "格斗 \/ 体质强化"
+        ],
+        "technique\/mobility": [
+          true,
+          1.3,
+          "格斗 \/ 移动"
+        ],
+        "technique\/thuggery": [
+          true,
+          1.3,
+          "格斗 \/ 暗杀"
+        ]
+      }
+    },
+    "MINDSLAYER": {
+      "copy_add": {
+        "life_rating": -2
+      },
+      "desc": "<p>心灵杀手专门使用直接而残酷的精神力量来对付周围的敌人。<\/p><p>心灵杀手在战斗时，他们总是在战场中心，大量的敌人包围他们，他们以心灵感应控制武器极快地挥砍敌人。<\/p><p>他们最重要的属性是：意志和灵巧。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +1 力量 , +0 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +4 意志 , +4 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> -2<\/span><\/span><\/p>",
+      "display_name": "心灵杀手",
+      "images": [
+        {
+          "file": "npc\/humanoid_yeek_yeek_mindslayer-cropped.png",
+          "height": 85,
+          "width": 64
+        }
+      ],
+      "name": "Mindslayer",
+      "short_name": "MINDSLAYER",
+      "stats": {
+        "cun": 4,
+        "str": 1,
+        "wil": 4
+      },
+      "talents": {
+        "T_KINETIC_AURA": 1,
+        "T_KINETIC_SHIELD": 1,
+        "T_SKATE": 1,
+        "T_TELEKINETIC_SMASH": 1,
+        "T_WEAPONS_MASTERY": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "psionic\/absorption": [
+          true,
+          1.3,
+          "灵能 \/ 吸收"
+        ],
+        "psionic\/augmented-striking": [
+          true,
+          1.3,
+          "灵能 \/ 强化打击"
+        ],
+        "psionic\/charged-mastery": [
+          false,
+          1.3,
+          "灵能 \/ 电能掌握"
+        ],
+        "psionic\/focus": [
+          true,
+          1.3,
+          "灵能 \/ 聚焦"
+        ],
+        "psionic\/kinetic-mastery": [
+          false,
+          1.3,
+          "灵能 \/ 动能掌握"
+        ],
+        "psionic\/projection": [
+          true,
+          1.3,
+          "灵能 \/ 投射"
+        ],
+        "psionic\/psi-fighting": [
+          true,
+          1.3,
+          "灵能 \/ 灵能格斗"
+        ],
+        "psionic\/thermal-mastery": [
+          false,
+          1.3,
+          "灵能 \/ 热能掌握"
+        ],
+        "psionic\/voracity": [
+          true,
+          1.3,
+          "灵能 \/ 贪婪"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "psionic\/augmented-mobility": [
+          true,
+          1.3,
+          "灵能 \/ 强化移动"
+        ],
+        "psionic\/finer-energy-manipulations": [
+          true,
+          1.3,
+          "灵能 \/ 能量操控"
+        ],
+        "technique\/combat-training": [
+          true,
+          1,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "NECROMANCER": {
+      "copy_add": {
+        "life_rating": -3
+      },
+      "desc": "<p>尽管自从魔法大爆炸以来，大部分魔法受到质疑，但自远古以来，死灵法师的黑暗魔法始终背负着骂名。<\/p><p>这些黑暗的施法者泯灭生命、扭曲死亡、召唤不死亡灵作为他们的军队来满足他们对力量的渴求，达到他们的最终目标：永垂不朽。<\/p><p>他们最重要的属性是：魔法和意志。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +0 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +5 魔法 , +3 意志 , +1 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> -3<\/span><\/span><\/p>",
+      "display_name": "死灵法师",
+      "images": [
+        {
+          "file": "npc\/humanoid_human_necromancer.png"
+        },
+        {
+          "file": "npc\/undead_lich_lich-cropped.png"
+        }
+      ],
+      "name": "Necromancer",
+      "short_name": "NECROMANCER",
+      "stats": {
+        "cun": 1,
+        "mag": 5,
+        "wil": 3
+      },
+      "talents": {
+        "T_BLURRED_MORTALITY": 1,
+        "T_CALL_OF_THE_CRYPT": 1,
+        "T_INVOKE_DARKNESS": 1,
+        "T_SOUL_LEECH": 1
+      },
+      "talents_types_class": {
+        "spell\/age-of-dusk": [
+          false,
+          1.3,
+          "法术 \/ 黄昏纪"
+        ],
+        "spell\/animus": [
+          true,
+          1.3,
+          "法术 \/ 魂魄"
+        ],
+        "spell\/death": [
+          true,
+          1.3,
+          "法术 \/ 死亡"
+        ],
+        "spell\/dreadmaster": [
+          true,
+          1.3,
+          "法术 \/ 梦魇之王"
+        ],
+        "spell\/eradication": [
+          false,
+          1.3,
+          "法术 \/ 根除"
+        ],
+        "spell\/glacial-waste": [
+          true,
+          1.3,
+          "法术 \/ 冰封大地"
+        ],
+        "spell\/grave": [
+          true,
+          1.3,
+          "法术 \/ 坟墓"
+        ],
+        "spell\/master-necromancer": [
+          false,
+          1.3,
+          "法术 \/ 死灵大师"
+        ],
+        "spell\/master-of-bones": [
+          true,
+          1.3,
+          "法术 \/ 白骨之主"
+        ],
+        "spell\/master-of-flesh": [
+          true,
+          1.3,
+          "法术 \/ 血肉之主"
+        ],
+        "spell\/nightfall": [
+          true,
+          1.3,
+          "法术 \/ 黄昏"
+        ],
+        "spell\/rime-wraith": [
+          false,
+          1.3,
+          "法术 \/ 远古冰魂"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "spell\/necrosis": [
+          true,
+          1.3,
+          "法术 \/ 死灵"
+        ],
+        "spell\/spectre": [
+          true,
+          1.3,
+          "法术 \/ 游魂"
+        ]
+      }
+    },
+    "NONE": {
+      "desc": "<p>你的种族不能选择职业。它有自己的内在能力。<\/p>",
+      "display_name": "无",
+      "images": [],
+      "name": "None",
+      "short_name": "NONE",
+      "talents_types_class": [],
+      "talents_types_generic": []
+    },
+    "OOZEMANCER": {
+      "copy_add": {
+        "life_rating": -3
+      },
+      "desc": "<p>软泥使将自己和正常文明割裂，让自己与自然更加和谐。他们拒绝奥术能量，同时，与生俱来的自然和野性力量让他们成为了对抗魔法使用者的中坚力量。<\/p><p>他们能制造软泥怪，来保护自己或远距离攻击对方，同时也能利用灵晶和心灵利刃来强化自己。<\/p><p>他们最重要的属性是：意志和灵巧。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +0 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +5 意志 , +4 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> -3<\/span><\/span><\/p>",
+      "display_name": "软泥使",
+      "images": [
+        {
+          "file": "npc\/vermin_oozes_bloated_ooze.png"
+        },
+        {
+          "file": "npc\/humanoid_dwarf_dwarven_summoner.png"
+        }
+      ],
+      "name": "Oozemancer",
+      "short_name": "OOZEMANCER",
+      "stats": {
+        "cun": 4,
+        "wil": 5
+      },
+      "talents": {
+        "T_MITOSIS": 1,
+        "T_MUCUS": 1,
+        "T_PSIBLADES": 1,
+        "T_SLIME_SPIT": 1
+      },
+      "talents_types_class": {
+        "wild-gift\/corrosive-blades": [
+          false,
+          1.3,
+          "自然 \/ 腐蚀利刃"
+        ],
+        "wild-gift\/eyals-fury": [
+          false,
+          1.3,
+          "自然 \/ 埃亚尔之怒"
+        ],
+        "wild-gift\/moss": [
+          true,
+          1.3,
+          "自然 \/ 苔藓"
+        ],
+        "wild-gift\/mucus": [
+          true,
+          1.3,
+          "自然 \/ 粘液"
+        ],
+        "wild-gift\/ooze": [
+          true,
+          1.3,
+          "自然 \/ 软泥"
+        ],
+        "wild-gift\/oozing-blades": [
+          false,
+          1.3,
+          "自然 \/ 软泥利刃"
+        ],
+        "wild-gift\/slime": [
+          true,
+          1.3,
+          "自然 \/ 史莱姆"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "wild-gift\/antimagic": [
+          true,
+          1.3,
+          "自然 \/ 反魔法"
+        ],
+        "wild-gift\/call": [
+          true,
+          1.3,
+          "自然 \/ 自然召唤"
+        ],
+        "wild-gift\/fungus": [
+          false,
+          1.3,
+          "自然 \/ 真菌"
+        ],
+        "wild-gift\/mindstar-mastery": [
+          true,
+          1.3,
+          "自然 \/ 灵晶掌握"
+        ]
+      }
+    },
+    "PARADOX_MAGE": {
+      "desc": "<p>时光法师学习时空的构造，不仅仅是扭曲时空而且还能重塑时空。<\/p><p>大多数时光法师没有基本的格斗技能，但他们可以利用宇宙的力量来进行战斗。<\/p><p>时光法师不掌握普通法术知识，他们学习的是更加复杂的时空法术。<\/p><p>他们最重要的属性是：魔法和意志。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +0 敏捷 , +2 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +5 魔法 , +2 意志 , +0 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +0<\/span><\/span><\/p>",
+      "display_name": "时空法师",
+      "images": [
+        {
+          "file": "npc\/humanoid_elf_high_chronomancer_zemekkys.png"
+        }
+      ],
+      "name": "Paradox Mage",
+      "short_name": "PARADOX_MAGE",
+      "stats": {
+        "con": 2,
+        "mag": 5,
+        "wil": 2
+      },
+      "talents": {
+        "T_DIMENSIONAL_STEP": 1,
+        "T_PRECOGNITION": 1,
+        "T_REPULSION_BLAST": 1,
+        "T_TEMPORAL_BOLT": 1
+      },
+      "talents_types_class": {
+        "chronomancy\/flux": [
+          false,
+          1.3,
+          "时空 \/ 波动"
+        ],
+        "chronomancy\/gravity": [
+          true,
+          1.3,
+          "时空 \/ 重力"
+        ],
+        "chronomancy\/matter": [
+          true,
+          1.3,
+          "时空 \/ 物质"
+        ],
+        "chronomancy\/spacetime-folding": [
+          true,
+          1.3,
+          "时空 \/ 时空折叠"
+        ],
+        "chronomancy\/speed-control": [
+          true,
+          1.3,
+          "时空 \/ 速度控制"
+        ],
+        "chronomancy\/spellbinding": [
+          false,
+          1.3,
+          "时空 \/ 时空增效"
+        ],
+        "chronomancy\/stasis": [
+          false,
+          1.3,
+          "时空 \/ 静态时空"
+        ],
+        "chronomancy\/timeline-threading": [
+          false,
+          1.3,
+          "时空 \/ 时空螺旋"
+        ],
+        "chronomancy\/timetravel": [
+          true,
+          1.3,
+          "时空 \/ 时空旅行"
+        ]
+      },
+      "talents_types_generic": {
+        "chronomancy\/chronomancy": [
+          true,
+          1.3,
+          "时空 \/ 时空"
+        ],
+        "chronomancy\/energy": [
+          false,
+          1.3,
+          "时空 \/ 能量"
+        ],
+        "chronomancy\/fate-weaving": [
+          true,
+          1.3,
+          "时空 \/ 命运编织"
+        ],
+        "chronomancy\/spacetime-weaving": [
+          true,
+          1.3,
+          "时空 \/ 时空编织"
+        ],
+        "cunning\/survival": [
+          false,
+          1,
+          "灵巧 \/ 生存"
+        ]
+      }
+    },
+    "POSSESSOR": {
+      "copy_add": {
+        "life_rating": -4
+      },
+      "desc": "<p><span style=\"color: #dc143c\"><span class=\"tstr-color-CRIMSON\">注意: 该职业机制相当 <span style=\"font-style: italic\"><span class=\"tstr-font-italic\">奇怪<\/span><\/span> ，可能不适合新手使用。<\/span><\/span><\/span><\/span><\/p><p>支配者是一类极其稀有的灵能力者。有些人称其为身体掠夺者，有些人视其为噩梦。<\/p><p>他们擅长偷取敌人死亡后的身体，能暂时抛弃自己的躯体，使用其他身体。<\/p><p>他们最重要的属性是：意志和灵巧。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +2 力量 , +2 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +3 意志 , +2 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> -4<\/span><\/span><\/p>",
+      "display_name": "支配者",
+      "images": [],
+      "name": "Possessor",
+      "short_name": "POSSESSOR",
+      "stats": {
+        "con": 0,
+        "cun": 2,
+        "dex": 2,
+        "mag": 0,
+        "str": 2,
+        "wil": 3
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 1,
+        "T_BODIES_RESERVE": 1,
+        "T_POSSESS": 1,
+        "T_PSIONIC_DISRUPTION": 1,
+        "T_SOLIPSISM": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "psionic\/battle-psionics": [
+          true,
+          1.3,
+          "灵能 \/ 灵能战斗"
+        ],
+        "psionic\/body-snatcher": [
+          false,
+          1.3,
+          "灵能 \/ 躯体夺取"
+        ],
+        "psionic\/deep-horror": [
+          false,
+          1.3,
+          "灵能 \/ 无尽恐惧"
+        ],
+        "psionic\/possession": [
+          true,
+          1.3,
+          "灵能 \/ 支配"
+        ],
+        "psionic\/psionic-menace": [
+          true,
+          1.3,
+          "灵能 \/ 灵能威吓"
+        ],
+        "psionic\/psychic-blows": [
+          true,
+          1.3,
+          "灵能 \/ 灵能打击"
+        ],
+        "psionic\/solipsism": [
+          true,
+          1.3,
+          "灵能 \/ 唯我主义"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "psionic\/mentalism": [
+          true,
+          1.3,
+          "灵能 \/ 唯心主义"
+        ],
+        "psionic\/ravenous-mind": [
+          true,
+          1.3,
+          "灵能 \/ 极度饥渴"
+        ],
+        "technique\/combat-training": [
+          true,
+          1,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "PSYSHOT": {
+      "copy_add": {
+        "life_rating": -1
+      },
+      "desc": "<p>强大的灵能能进入蒸汽科技的格式塔中，以增强其金属力量。<\/p><p>念力射手将这项能力与格式塔结合，来强化灵晶的力量，同时使用蒸汽枪毁灭敌人。<\/p><p>他们最重要的属性是：灵巧、意志和敏捷<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +3 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法, +3 意志, +3 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> -1<\/span><\/span><\/p>",
+      "display_name": "灵能射手",
+      "images": [],
+      "locked_desc": "扭曲精神，扭曲科技，一切都是为了激发恐惧。",
+      "name": "Psyshot",
+      "short_name": "PSYSHOT",
+      "stats": {
+        "cun": 3,
+        "dex": 3,
+        "wil": 3
+      },
+      "talents": {
+        "T_GESTALT": 1,
+        "T_METALSTAR": 1,
+        "T_PSYSHOT": 1,
+        "T_SHOOT": 1,
+        "T_SMITH": 1,
+        "T_THERAPEUTICS": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "psionic\/action-at-a-distance": [
+          true,
+          1.3,
+          "灵能 \/ 远程动作"
+        ],
+        "psionic\/gestalt": [
+          true,
+          1.3,
+          "灵能 \/ 格式塔"
+        ],
+        "psionic\/nightmare": [
+          false,
+          1.3,
+          "灵能 \/ 梦魇"
+        ],
+        "psionic\/psionic-fog": [
+          true,
+          1.3,
+          "灵能 \/ 灵能之雾"
+        ],
+        "steamtech\/avoidance": [
+          false,
+          1.3,
+          "蒸汽科技 \/ 闪避"
+        ],
+        "steamtech\/dread": [
+          false,
+          1.3,
+          "蒸汽科技 \/ 梦魇"
+        ],
+        "steamtech\/mechstar": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 机械灵晶"
+        ],
+        "steamtech\/psytech-gunnery": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 灵能射击"
+        ],
+        "steamtech\/thoughts-of-iron": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 钢铁意志"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          false,
+          0.9,
+          "灵巧 \/ 生存"
+        ],
+        "steamtech\/blacksmith": [
+          false,
+          1.1,
+          "蒸汽科技 \/ 铁匠"
+        ],
+        "steamtech\/chemistry": [
+          true,
+          1.2,
+          "蒸汽科技 \/ 化学"
+        ],
+        "steamtech\/engineering": [
+          true,
+          1.2,
+          "蒸汽科技 \/ 工程师"
+        ],
+        "steamtech\/physics": [
+          true,
+          1.2,
+          "蒸汽科技 \/ 物理"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "REAVER": {
+      "copy_add": {
+        "life_rating": 1
+      },
+      "desc": "<p>收割者是一个恐怖的对手，他可以向敌人挥舞两把单手武器。<\/p><p>他们可以驾驭邪恶的枯萎术，将恐怖的疾病传染给目标，然后击碎他们的头颅。<\/p><p>他们最重要的属性是：力量和魔法。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +4 力量 , +1 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +4 魔法 , +0 意志 , +0 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +2<\/span><\/span><\/p>",
+      "display_name": "收割者",
+      "images": [
+        {
+          "file": "npc\/humanoid_human_reaver.png"
+        }
+      ],
+      "name": "Reaver",
+      "short_name": "REAVER",
+      "stats": {
+        "dex": 1,
+        "mag": 4,
+        "str": 4
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 1,
+        "T_CORRUPTED_STRENGTH": 1,
+        "T_DRAIN": 1,
+        "T_WEAPONS_MASTERY": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "corruption\/bone": [
+          true,
+          1.3,
+          "堕落 \/ 骨"
+        ],
+        "corruption\/plague": [
+          true,
+          1.3,
+          "堕落 \/ 瘟疫"
+        ],
+        "corruption\/reaving-combat": [
+          true,
+          1.3,
+          "堕落 \/ 掠夺格斗"
+        ],
+        "corruption\/rot": [
+          false,
+          1.3,
+          "堕落 \/ 腐烂"
+        ],
+        "corruption\/sanguisuge": [
+          true,
+          1,
+          "堕落 \/ 水蛭"
+        ],
+        "corruption\/scourge": [
+          true,
+          1.3,
+          "堕落 \/ 鞭笞"
+        ],
+        "corruption\/vim": [
+          true,
+          1,
+          "堕落 \/ 活力"
+        ]
+      },
+      "talents_types_generic": {
+        "corruption\/curses": [
+          false,
+          1.3,
+          "堕落 \/ 诅咒"
+        ],
+        "corruption\/hexes": [
+          false,
+          1.3,
+          "堕落 \/ 邪术"
+        ],
+        "corruption\/torment": [
+          true,
+          1.3,
+          "堕落 \/ 折磨"
+        ],
+        "corruption\/vile-life": [
+          false,
+          1,
+          "堕落 \/ 邪恶生命"
+        ],
+        "cunning\/survival": [
+          false,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "ROGUE": {
+      "desc": "<p>盗贼是诡计专家。盗贼可以潜行到你背后而不被发现，然后通过背后刺杀中造成巨大伤害。<\/p><p>盗贼通常双持匕首，他们同样可以成为陷阱专家，除了安装陷阱以外他们可以侦测并拆除陷阱。<\/p><p>他们最重要的属性是：敏捷和灵巧<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +1 力量 , +3 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +0 意志 , +5 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +0<\/span><\/span><\/p>",
+      "display_name": "盗贼系",
+      "images": [
+        {
+          "file": "npc\/humanoid_human_rogue.png"
+        }
+      ],
+      "name": "Rogue",
+      "short_name": "ROGUE",
+      "stats": {
+        "cun": 5,
+        "dex": 3,
+        "str": 1
+      },
+      "talents": {
+        "T_DUAL_STRIKE": 1,
+        "T_DUAL_WEAPON_MASTERY": 1,
+        "T_KNIFE_MASTERY": 1,
+        "T_LETHALITY": 1,
+        "T_STEALTH": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "cunning\/artifice": [
+          false,
+          1.3,
+          "灵巧 \/ 诡计"
+        ],
+        "cunning\/dirty": [
+          true,
+          1.3,
+          "灵巧 \/ 卑劣攻击"
+        ],
+        "cunning\/poisons": [
+          true,
+          1.3,
+          "灵巧 \/ 毒素",
+          true
+        ],
+        "cunning\/stealth": [
+          true,
+          1.3,
+          "灵巧 \/ 潜行"
+        ],
+        "cunning\/trapping": [
+          true,
+          1.3,
+          "灵巧 \/ 陷阱制作"
+        ],
+        "technique\/assassination": [
+          false,
+          1.3,
+          "格斗 \/ 暗杀"
+        ],
+        "technique\/combat-techniques-active": [
+          false,
+          1.3,
+          "格斗 \/ 战斗技巧"
+        ],
+        "technique\/dualweapon-attack": [
+          true,
+          1.3,
+          "格斗 \/ 双持战技"
+        ],
+        "technique\/duelist": [
+          true,
+          1.3,
+          "格斗 \/ 决斗专家"
+        ],
+        "technique\/throwing-knives": [
+          true,
+          1.3,
+          "格斗 \/ 飞刀"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/lethality": [
+          true,
+          1.3,
+          "灵巧 \/ 致命攻击"
+        ],
+        "cunning\/scoundrel": [
+          false,
+          1.3,
+          "灵巧 \/ 街头格斗"
+        ],
+        "cunning\/survival": [
+          true,
+          1.3,
+          "灵巧 \/ 生存"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ],
+        "technique\/mobility": [
+          true,
+          1.3,
+          "格斗 \/ 移动"
+        ]
+      }
+    },
+    "SAWBUTCHER": {
+      "copy_add": {
+        "life_rating": 2
+      },
+      "desc": "<p>可怕的战争巨兽，使用蒸汽链锯增加致命杀伤力。<\/p><p>他们最重要的属性是：力量和灵巧<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +5 力量 , +0 敏捷 , +1 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +0 意志 , +3 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\">每等级生命加值:<\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> 2<\/span><\/span><\/p>",
+      "display_name": "链锯屠夫",
+      "images": [
+        {
+          "file": "npc\/humanoid_orc_orc_guard.png"
+        }
+      ],
+      "locked_desc": "制造、实验、发现。创造之路永无止境！",
+      "name": "Sawbutcher",
+      "short_name": "SAWBUTCHER",
+      "stats": {
+        "con": 1,
+        "cun": 3,
+        "str": 5
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 1,
+        "T_SAWWHEELS": 1,
+        "T_SMITH": 1,
+        "T_STEAMSAW_MASTERY": 1,
+        "T_THERAPEUTICS": 1,
+        "T_TO_THE_ARMS": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "steamtech\/automated-butchery": [
+          false,
+          1.3,
+          "蒸汽科技 \/ 自动化屠杀"
+        ],
+        "steamtech\/battle-machinery": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 战术机械"
+        ],
+        "steamtech\/battlefield-management": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 战地控制"
+        ],
+        "steamtech\/butchery": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 屠杀"
+        ],
+        "steamtech\/furnace": [
+          false,
+          1.3,
+          "蒸汽科技 \/ 熔炉"
+        ],
+        "steamtech\/sawmaiming": [
+          true,
+          1.3,
+          "蒸汽科技 \/ 链锯"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          false,
+          1.2,
+          "灵巧 \/ 生存"
+        ],
+        "steamtech\/blacksmith": [
+          true,
+          1.2,
+          "蒸汽科技 \/ 铁匠"
+        ],
+        "steamtech\/chemistry": [
+          true,
+          1.2,
+          "蒸汽科技 \/ 化学"
+        ],
+        "steamtech\/engineering": [
+          false,
+          1.1,
+          "蒸汽科技 \/ 工程师"
+        ],
+        "steamtech\/physics": [
+          true,
+          1.2,
+          "蒸汽科技 \/ 物理"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "SHADOWBLADE": {
+      "desc": "<p>影舞者是拥有魔法天赋的特殊盗贼，他们可以在阴影之中发动偷袭同时可以施展魔法来强化他们的攻击和生存能力。<\/p><p>他们的魔法并非习得而是与生俱来的，因此他们不能依靠自然的法力恢复而必须依靠额外的方法来恢复法力值。<\/p><p>他们使用幻觉、时间、预知和传送技能来增强他们的能力。<\/p><p>他们最重要的属性是：敏捷、灵巧和魔法。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +3 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +3 魔法 , +0 意志 , +3 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +0<\/span><\/span><\/p>",
+      "display_name": "影舞者",
+      "images": [
+        {
+          "file": "npc\/humanoid_human_shadowblade.png"
+        }
+      ],
+      "name": "Shadowblade",
+      "short_name": "SHADOWBLADE",
+      "stats": {
+        "cun": 3,
+        "dex": 3,
+        "mag": 3
+      },
+      "talents": {
+        "T_DUAL_STRIKE": 1,
+        "T_KNIFE_MASTERY": 1,
+        "T_LETHALITY": 1,
+        "T_PHASE_DOOR": 1,
+        "T_SHADOW_COMBAT": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "cunning\/ambush": [
+          false,
+          1.3,
+          "灵巧 \/ 伏击"
+        ],
+        "cunning\/dirty": [
+          true,
+          1,
+          "灵巧 \/ 卑劣攻击"
+        ],
+        "cunning\/shadow-magic": [
+          true,
+          1.3,
+          "灵巧 \/ 影之秘法"
+        ],
+        "cunning\/stealth": [
+          true,
+          1.3,
+          "灵巧 \/ 潜行"
+        ],
+        "spell\/phantasm": [
+          true,
+          1,
+          "法术 \/ 幻术"
+        ],
+        "spell\/temporal": [
+          false,
+          1,
+          "法术 \/ 时空"
+        ],
+        "technique\/combat-techniques-active": [
+          false,
+          1,
+          "格斗 \/ 战斗技巧"
+        ],
+        "technique\/combat-techniques-passive": [
+          false,
+          1.3,
+          "格斗 \/ 战斗经验"
+        ],
+        "technique\/dualweapon-attack": [
+          true,
+          1,
+          "格斗 \/ 双持战技"
+        ],
+        "technique\/duelist": [
+          true,
+          1,
+          "格斗 \/ 决斗专家"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/lethality": [
+          true,
+          1.3,
+          "灵巧 \/ 致命攻击"
+        ],
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "spell\/conveyance": [
+          true,
+          1,
+          "法术 \/ 传送"
+        ],
+        "spell\/divination": [
+          false,
+          1,
+          "法术 \/ 侦查"
+        ],
+        "technique\/combat-training": [
+          true,
+          1,
+          "格斗 \/ 战斗训练"
+        ],
+        "technique\/mobility": [
+          true,
+          1.3,
+          "格斗 \/ 移动"
+        ]
+      }
+    },
+    "SKIRMISHER": {
+      "copy_add": {
+        "life_rating": 0
+      },
+      "desc": "<p>灵活的移动让散兵甩开试图接近的对手，并得以最大程度地发挥投石索的威力，这让他们在与其他远程职业作战时也占据优势。<\/p><p>他们也精通盾牌的使用，这让他们在持久战中也几乎处于不败之地。<\/p><p>他们最重要的属性是：敏捷和灵巧<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +4 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +1 意志 , +4 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +0<\/span><\/span><\/p>",
+      "display_name": "散兵",
+      "images": [
+        {
+          "file": "npc\/humanoid_human_high_slinger.png"
+        }
+      ],
+      "name": "Skirmisher",
+      "short_name": "SKIRMISHER",
+      "stats": {
+        "cun": 4,
+        "dex": 4,
+        "wil": 1
+      },
+      "talents": {
+        "T_DISENGAGE": 1,
+        "T_SHOOT": 1,
+        "T_SKIRMISHER_BUCKLER_EXPERTISE": 1,
+        "T_SKIRMISHER_KNEECAPPER": 1,
+        "T_SKIRMISHER_SLING_SUPREMACY": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "cunning\/called-shots": [
+          true,
+          1.3,
+          "灵巧 \/ 精准射击"
+        ],
+        "cunning\/poisons": [
+          false,
+          1.3,
+          "灵巧 \/ 毒素",
+          true
+        ],
+        "cunning\/trapping": [
+          false,
+          1,
+          "灵巧 \/ 陷阱制作"
+        ],
+        "technique\/buckler-training": [
+          true,
+          1.3,
+          "格斗 \/ 盾牌训练"
+        ],
+        "technique\/skirmisher-slings": [
+          true,
+          1.3,
+          "格斗 \/ 散兵-投石索"
+        ],
+        "technique\/tireless-combatant": [
+          true,
+          1.3,
+          "格斗 \/ 不倦战斗"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/scoundrel": [
+          true,
+          1.3,
+          "灵巧 \/ 街头格斗"
+        ],
+        "cunning\/survival": [
+          true,
+          1.3,
+          "灵巧 \/ 生存"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ],
+        "technique\/mobility": [
+          true,
+          1.3,
+          "格斗 \/ 移动"
+        ]
+      }
+    },
+    "SOLIPSIST": {
+      "copy_add": {
+        "life_rating": -4
+      },
+      "desc": "<p>织梦者们相信现实具有可塑性，而没有任何方面能比的过幻想对这个世界的重塑能力。<\/p><p>他们依靠此理论进行创造和毁灭，侵入他人的思维并操纵他人的梦境。<\/p><p>使用此理论需要付出巨大的代价，织梦者必须对自己的思维有很强的控制力，否则他将会失去自我，世界于他而言将成为虚幻。<\/p><p>他们最重要的属性是：意志和灵巧。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +0 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +5 意志 , +4 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> -4 (*特殊*)<\/span><\/span><\/p>",
+      "display_name": "织梦者",
+      "images": [
+        {
+          "file": "npc\/humanoid_yeek_yeek_psionic.png"
+        }
+      ],
+      "name": "Solipsist",
+      "short_name": "SOLIPSIST",
+      "stats": {
+        "cun": 4,
+        "str": 0,
+        "wil": 5
+      },
+      "talents": {
+        "T_MIND_SEAR": 1,
+        "T_SLEEP": 1,
+        "T_SOLIPSISM": 1,
+        "T_THOUGHT_FORMS": 1
+      },
+      "talents_types_class": {
+        "psionic\/discharge": [
+          false,
+          1.3,
+          "灵能 \/ 脉冲"
+        ],
+        "psionic\/distortion": [
+          true,
+          1.3,
+          "灵能 \/ 扭曲"
+        ],
+        "psionic\/dream-smith": [
+          true,
+          1.3,
+          "灵能 \/ 梦境锻造"
+        ],
+        "psionic\/nightmare": [
+          false,
+          1.3,
+          "灵能 \/ 梦魇"
+        ],
+        "psionic\/psychic-assault": [
+          true,
+          1.3,
+          "灵能 \/ 心灵战斗"
+        ],
+        "psionic\/slumber": [
+          true,
+          1.3,
+          "灵能 \/ 催眠"
+        ],
+        "psionic\/solipsism": [
+          true,
+          1.3,
+          "灵能 \/ 唯我主义"
+        ],
+        "psionic\/thought-forms": [
+          true,
+          1.3,
+          "灵能 \/ 具象之弧"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "psionic\/dream-forge": [
+          false,
+          1.3,
+          "灵能 \/ 梦之熔炉"
+        ],
+        "psionic\/dreaming": [
+          true,
+          1.3,
+          "灵能 \/ 梦境"
+        ],
+        "psionic\/feedback": [
+          true,
+          1.3,
+          "灵能 \/ 反馈"
+        ],
+        "psionic\/mentalism": [
+          true,
+          1.3,
+          "灵能 \/ 唯心主义"
+        ]
+      }
+    },
+    "STONE_WARDEN": {
+      "copy_add": {
+        "life_rating": 2
+      },
+      "desc": "<p>岩石守卫是那些同时训练魔法技艺与自然力量的矮人。<\/p><p>在其他种族受困于自然和魔法天生对立的偏见时，矮人们已经找到方法让这两种力量和谐共存。<\/p><p>岩石守卫是身着重甲的战士，双持盾牌来施展技艺。<\/p><p>他们最重要的属性是：力量，魔法和意志<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +2 力量 , +0 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +4 魔法 , +3 意志 , +0 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +2<\/span><\/span><\/p>",
+      "display_name": "岩石守卫",
+      "images": [],
+      "name": "Stone Warden",
+      "short_name": "STONE_WARDEN",
+      "stats": {
+        "mag": 4,
+        "str": 2,
+        "wil": 3
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 3,
+        "T_ELDRITCH_BLOW": 1,
+        "T_STONESHIELD": 1,
+        "T_STONE_VINES": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "spell\/deeprock": [
+          false,
+          1.3,
+          "法术 \/ 深岩形态"
+        ],
+        "spell\/earth": [
+          true,
+          1.3,
+          "法术 \/ 土"
+        ],
+        "spell\/eldritch-shield": [
+          true,
+          1.3,
+          "法术 \/ 魔力盾牌"
+        ],
+        "spell\/eldritch-stone": [
+          false,
+          1.3,
+          "法术 \/ 魔法岩石"
+        ],
+        "spell\/stone": [
+          false,
+          1.3,
+          "法术 \/ 石"
+        ],
+        "wild-gift\/dwarven-nature": [
+          true,
+          1.3,
+          "自然 \/ 矮人之自然力量"
+        ],
+        "wild-gift\/earthen-power": [
+          true,
+          1.3,
+          "自然 \/ 大地力量"
+        ],
+        "wild-gift\/earthen-vines": [
+          true,
+          1.3,
+          "自然 \/ 岩石藤蔓"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "spell\/stone-alchemy": [
+          false,
+          1.3,
+          "法术 \/ 岩石炼金"
+        ],
+        "technique\/combat-training": [
+          true,
+          1,
+          "格斗 \/ 战斗训练"
+        ],
+        "wild-gift\/call": [
+          true,
+          1.3,
+          "自然 \/ 自然召唤"
+        ]
+      }
+    },
+    "SUMMONER": {
+      "desc": "<p>召唤师从不孤身战斗，他们时刻准备召唤出宠物为他们而战。<\/p><p>召唤师可以召唤从战争猎犬到火龙的各种生物。<\/p><p>他们最重要的属性是：意志和灵巧。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +1 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +5 意志 , +3 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +0<\/span><\/span><\/p>",
+      "display_name": "召唤师",
+      "images": [
+        {
+          "file": "npc\/humanoid_thalore_ziguranth_summoner.png"
+        },
+        {
+          "file": "npc\/summoner_ritch.png"
+        }
+      ],
+      "name": "Summoner",
+      "short_name": "SUMMONER",
+      "stats": {
+        "cun": 3,
+        "dex": 1,
+        "wil": 5
+      },
+      "talents": {
+        "T_HEIGHTENED_SENSES": 1,
+        "T_MEDITATION": 1,
+        "T_RITCH_FLAMESPITTER": 1,
+        "T_WAR_HOUND": 1
+      },
+      "talents_types_class": {
+        "technique\/combat-techniques-active": [
+          false,
+          1,
+          "格斗 \/ 战斗技巧"
+        ],
+        "wild-gift\/summon-advanced": [
+          false,
+          1.3,
+          "自然 \/ 高级召唤"
+        ],
+        "wild-gift\/summon-augmentation": [
+          false,
+          1.3,
+          "自然 \/ 召唤(增益)"
+        ],
+        "wild-gift\/summon-distance": [
+          true,
+          1.3,
+          "自然 \/ 召唤(远程)"
+        ],
+        "wild-gift\/summon-melee": [
+          true,
+          1.3,
+          "自然 \/ 召唤(近战)"
+        ],
+        "wild-gift\/summon-utility": [
+          true,
+          1.3,
+          "自然 \/ 召唤(通用)"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          true,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "technique\/combat-training": [
+          true,
+          1,
+          "格斗 \/ 战斗训练"
+        ],
+        "wild-gift\/call": [
+          true,
+          1.3,
+          "自然 \/ 自然召唤"
+        ],
+        "wild-gift\/harmony": [
+          false,
+          1.3,
+          "自然 \/ 自然协调"
+        ],
+        "wild-gift\/mindstar-mastery": [
+          true,
+          1.3,
+          "自然 \/ 灵晶掌握"
+        ]
+      }
+    },
+    "SUN_PALADIN": {
+      "copy_add": {
+        "life_rating": 2
+      },
+      "desc": "<p>太阳骑士出生于晨曦之门，那是遥远东方自由生活的人们的最后堡垒。<\/p><p>他们的事业受人尊敬，他们的座右铭是：太阳赐予我们力量、圣洁和精华。我们为黑暗带去光明，任何反抗我们的力量都休想通过。<\/p><p>他们能施展太阳之力将任何试图破坏太阳堡垒的力量击退。<\/p><p>他们同时精通武器和盾战术并熟悉魔法，在近身猛击对手之前他们通常在远处就可以灼烧敌人。<\/p><p>他们最重要的属性是：力量和魔法。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +5 力量 , +0 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +4 魔法 , +0 意志 , +0 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +2<\/span><\/span><\/p>",
+      "display_name": "太阳骑士",
+      "images": [
+        {
+          "file": "npc\/humanoid_human_sun_paladin_guren.png"
+        }
+      ],
+      "name": "Sun Paladin",
+      "short_name": "SUN_PALADIN",
+      "stats": {
+        "mag": 4,
+        "str": 5
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 2,
+        "T_CHANT_ACOLYTE": 1,
+        "T_SUN_BEAM": 1,
+        "T_WEAPONS_MASTERY": 1,
+        "T_WEAPON_OF_LIGHT": 1
+      },
+      "talents_types_class": {
+        "celestial\/combat": [
+          true,
+          1.3,
+          "天空 \/ 战斗"
+        ],
+        "celestial\/crusader": [
+          false,
+          1.3,
+          "天空 \/ 十字军"
+        ],
+        "celestial\/guardian": [
+          false,
+          1.3,
+          "天空 \/ 守护"
+        ],
+        "celestial\/radiance": [
+          false,
+          1.3,
+          "天空 \/ 光辉"
+        ],
+        "celestial\/sun": [
+          true,
+          1.3,
+          "天空 \/ 太阳"
+        ],
+        "technique\/2hweapon-assault": [
+          true,
+          1,
+          "格斗 \/ 双手战技"
+        ],
+        "technique\/combat-techniques-active": [
+          false,
+          1,
+          "格斗 \/ 战斗技巧"
+        ],
+        "technique\/combat-techniques-passive": [
+          true,
+          1,
+          "格斗 \/ 战斗经验"
+        ],
+        "technique\/shield-offense": [
+          true,
+          1,
+          "格斗 \/ 盾牌攻击"
+        ]
+      },
+      "talents_types_generic": {
+        "celestial\/chants": [
+          true,
+          1.3,
+          "天空 \/ 赞歌"
+        ],
+        "celestial\/light": [
+          true,
+          1.3,
+          "天空 \/ 光系"
+        ],
+        "cunning\/survival": [
+          false,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "technique\/combat-training": [
+          true,
+          1,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "TEMPORAL_WARDEN": {
+      "copy_add": {
+        "life_rating": 2
+      },
+      "desc": "<p>通过缠结不同的时间线，时空守卫可以召唤其他世界线的分身，和自己一同战斗。<\/p><p>时空守卫通过学习时空法术，可以将箭术和双手武器格斗联合在一起，在两者之间随意切换。<\/p><p>他们最重要的属性是：魔法、敏捷和意志。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 力量 , +3 敏捷 , +0 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +4 魔法 , +2 意志 , +0 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +2<\/span><\/span><\/p>",
+      "display_name": "时空守卫",
+      "images": [
+        {
+          "file": "npc\/humanoid_elf_star_crusader.png"
+        },
+        {
+          "file": "npc\/humanoid_elf_elven_archer.png"
+        }
+      ],
+      "name": "Temporal Warden",
+      "short_name": "TEMPORAL_WARDEN",
+      "stats": {
+        "dex": 3,
+        "mag": 4,
+        "wil": 2
+      },
+      "talents": {
+        "T_ARROW_STITCHING": 1,
+        "T_DIMENSIONAL_STEP": 1,
+        "T_SHOOT": 1,
+        "T_STRENGTH_OF_PURPOSE": 1,
+        "T_WARP_BLADE": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "chronomancy\/blade-threading": [
+          true,
+          1.3,
+          "时空 \/ 螺旋灵刃"
+        ],
+        "chronomancy\/bow-threading": [
+          true,
+          1.3,
+          "时空 \/ 螺旋灵弓"
+        ],
+        "chronomancy\/guardian": [
+          true,
+          1.3,
+          "时空 \/ 时空守卫"
+        ],
+        "chronomancy\/spacetime-folding": [
+          true,
+          1.3,
+          "时空 \/ 时空折叠"
+        ],
+        "chronomancy\/speed-control": [
+          true,
+          1.3,
+          "时空 \/ 速度控制"
+        ],
+        "chronomancy\/stasis": [
+          false,
+          1,
+          "时空 \/ 静态时空"
+        ],
+        "chronomancy\/temporal-combat": [
+          true,
+          1.3,
+          "时空 \/ 时空格斗"
+        ],
+        "chronomancy\/temporal-hounds": [
+          false,
+          1.3,
+          "时空 \/ 时空猎犬"
+        ],
+        "chronomancy\/threaded-combat": [
+          false,
+          1.3,
+          "时空 \/ 螺旋战斗"
+        ]
+      },
+      "talents_types_generic": {
+        "chronomancy\/chronomancy": [
+          true,
+          1.3,
+          "时空 \/ 时空"
+        ],
+        "chronomancy\/fate-weaving": [
+          false,
+          1,
+          "时空 \/ 命运编织"
+        ],
+        "chronomancy\/spacetime-weaving": [
+          true,
+          1.3,
+          "时空 \/ 时空编织"
+        ],
+        "cunning\/survival": [
+          false,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "TUTORIAL_ADVENTURER": {
+      "desc": "<p>冒险家们有一套通用的理论可以传授给菜鸟们。<\/p>",
+      "display_name": "探索模式冒险家",
+      "images": [],
+      "name": "Tutorial Adventurer",
+      "short_name": "TUTORIAL_ADVENTURER",
+      "stats": {
+        "con": 5,
+        "cun": 5,
+        "dex": 8,
+        "mag": 10,
+        "str": 10,
+        "wil": 5
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 2,
+        "T_WEAPONS_MASTERY": 2,
+        "T_WEAPON_COMBAT": 2
+      },
+      "talents_types_class": {
+        "technique\/shield-defense": [
+          true,
+          1.3,
+          "格斗 \/ 盾牌防御"
+        ],
+        "technique\/shield-offense": [
+          true,
+          1.3,
+          "格斗 \/ 盾牌攻击"
+        ]
+      },
+      "talents_types_generic": {
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "WRITHING_ONE": {
+      "copy_add": {
+        "life_rating": 3
+      },
+      "desc": "<p>苦痛者了解我们所谓的 <span style=\"font-style: italic\"><span class=\"tstr-font-italic\">恐魔<\/span><\/span> 是通往远古知识和混沌纪力量的钥匙。他们愿意付出一切代价来获取。<\/p><p>在极度渴求力量的同时，他们似乎失去了部分自我，和他们所研究的恐魔越来越相似。<\/p><p>他们中大部分人选择将一整只手臂化作致命触手。<\/p><p>某些人甚至拒绝在没有蠕虫合体的陪同下离开避难所。<\/p><p>他们最重要的属性是：力量和魔法。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +3 力量, +0 敏捷, +3 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +3 魔法, +0 意志, +0 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +3<\/span><\/span><\/p>",
+      "display_name": "苦痛者",
+      "images": [],
+      "name": "Writhing One",
+      "short_name": "WRITHING_ONE",
+      "stats": {
+        "con": 3,
+        "mag": 3,
+        "str": 3
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 1,
+        "T_CARRION_FEET": 1,
+        "T_CHAOS_ORBS": 1,
+        "T_INSANITY_POOL": 1,
+        "T_MUTATED_HAND": 1,
+        "T_WEAPONS_MASTERY": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "demented\/controlled-horrors": [
+          true,
+          1.3,
+          "疯狂 \/ 恐魔操控"
+        ],
+        "demented\/disfigured-face": [
+          true,
+          1.3,
+          "疯狂 \/ 毁容"
+        ],
+        "demented\/friend-of-the-worm": [
+          false,
+          1.3,
+          "疯狂 \/ 蠕虫之友"
+        ],
+        "demented\/horrific-body": [
+          true,
+          1.3,
+          "疯狂 \/ 恐怖身躯"
+        ],
+        "demented\/path-of-horror": [
+          true,
+          1.3,
+          "疯狂 \/ 恐魔之路"
+        ],
+        "demented\/slow-death": [
+          false,
+          1.3,
+          "疯狂 \/ 慢性死亡"
+        ],
+        "demented\/tentacles": [
+          true,
+          1.3,
+          "疯狂 \/ 触手"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          true,
+          1.3,
+          "灵巧 \/ 生存"
+        ],
+        "demented\/beyond-sanity": [
+          true,
+          1.3,
+          "疯狂 \/ 非理性"
+        ],
+        "technique\/combat-training": [
+          true,
+          1,
+          "格斗 \/ 战斗训练"
+        ]
+      }
+    },
+    "WYRMIC": {
+      "copy_add": {
+        "life_rating": 2
+      },
+      "desc": "<p>龙战士是学习守护巨龙战斗方式的战士。<\/p><p>他们从不同的龙中学习技能。<\/p><p>他们最重要的属性是：力量和意志。<\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 属性修正：<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +5 力量 , +0 敏捷 , +1 体质<\/span><\/span><\/p><p><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> * +0 魔法 , +3 意志 , +0 灵巧<\/span><\/span><\/p><p><span style=\"color: #ffd700\"><span class=\"tstr-color-GOLD\"> 每等级生命加值： <\/span><\/span><span style=\"color: #51ddff\"><span class=\"tstr-color-LIGHT_BLUE\"> +2<\/span><\/span><\/p>",
+      "display_name": "龙战士",
+      "images": [
+        {
+          "file": "npc\/humanoid_human_fire_wyrmic.png"
+        },
+        {
+          "file": "npc\/humanoid_human_multihued_wyrmic.png"
+        }
+      ],
+      "name": "Wyrmic",
+      "short_name": "WYRMIC",
+      "stats": {
+        "con": 1,
+        "str": 5,
+        "wil": 3
+      },
+      "talents": {
+        "T_ARMOUR_TRAINING": 1,
+        "T_ICE_CLAW": 1,
+        "T_MEDITATION": 1,
+        "T_WEAPONS_MASTERY": 1,
+        "T_WEAPON_COMBAT": 1
+      },
+      "talents_types_class": {
+        "demented\/scourge-drake": [
+          false,
+          1.3,
+          "疯狂 \/ 天谴龙",
+          true
+        ],
+        "spell\/undead-drake": [
+          false,
+          1.3,
+          "法术 \/ 亡灵飞龙",
+          true
+        ],
+        "technique\/2hweapon-assault": [
+          true,
+          1.3,
+          "格斗 \/ 双手战技"
+        ],
+        "technique\/combat-techniques-active": [
+          false,
+          1.3,
+          "格斗 \/ 战斗技巧"
+        ],
+        "technique\/shield-offense": [
+          true,
+          1.3,
+          "格斗 \/ 盾牌攻击"
+        ],
+        "wild-gift\/cold-drake": [
+          true,
+          1.3,
+          "自然 \/ 冰龙形态"
+        ],
+        "wild-gift\/fire-drake": [
+          true,
+          1.3,
+          "自然 \/ 火龙形态"
+        ],
+        "wild-gift\/higher-draconic": [
+          false,
+          1.3,
+          "自然 \/ 高等龙族"
+        ],
+        "wild-gift\/sand-drake": [
+          true,
+          1.3,
+          "自然 \/ 土龙形态"
+        ],
+        "wild-gift\/storm-drake": [
+          true,
+          1.3,
+          "自然 \/ 雷龙形态"
+        ],
+        "wild-gift\/venom-drake": [
+          true,
+          1.3,
+          "自然 \/ 毒龙形态"
+        ]
+      },
+      "talents_types_generic": {
+        "cunning\/survival": [
+          false,
+          1,
+          "灵巧 \/ 生存"
+        ],
+        "technique\/combat-training": [
+          true,
+          1.3,
+          "格斗 \/ 战斗训练"
+        ],
+        "wild-gift\/call": [
+          true,
+          1.3,
+          "自然 \/ 自然召唤"
+        ],
+        "wild-gift\/fungus": [
+          true,
+          1,
+          "自然 \/ 真菌"
+        ],
+        "wild-gift\/harmony": [
+          false,
+          1,
+          "自然 \/ 自然协调"
+        ]
+      }
+    }
+  }
+}
